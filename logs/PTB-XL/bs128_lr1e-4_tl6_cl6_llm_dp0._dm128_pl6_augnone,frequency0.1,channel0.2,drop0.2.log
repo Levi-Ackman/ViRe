@@ -1,0 +1,250 @@
+A total 96 CPUs are used, making sure that num_worker is small than the number of CPUs
+Use GPU: cuda:0
+>>>>>>>start training : VRAM_PTB-XL_seed_48_dm_128_dp_0.0_tl_6_cl_6_bs_128_lr0.0001_aug_none,frequency0.1,channel0.2,drop0.2_pl_6>>>>>>>>>>>>>>>>>>>>>>>>>>
+(112570, 250, 12)
+(112570,)
+(39280, 250, 12)
+(39280,)
+(39550, 250, 12)
+(39550,)
+Epoch: 1 cost time: 35.15711522102356
+Accuracy: 0.69461, Precision: 0.60030, Recall: 0.56414 F1: 0.56868, AUROC: 0.86550, AUPRC: 0.60598
+Metric score decreased (inf --> -0.591247).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 35.18037462234497
+Accuracy: 0.71148, Precision: 0.66117, Recall: 0.54620 F1: 0.57132, AUROC: 0.88224, AUPRC: 0.63956
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 35.774412631988525
+Accuracy: 0.71661, Precision: 0.65988, Recall: 0.56507 F1: 0.59031, AUROC: 0.88731, AUPRC: 0.65317
+Metric score decreased (-0.591247 --> -0.614800).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 35.0973858833313
+Accuracy: 0.72589, Precision: 0.66970, Recall: 0.57813 F1: 0.58482, AUROC: 0.89230, AUPRC: 0.66060
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 34.99581217765808
+Accuracy: 0.72789, Precision: 0.66296, Recall: 0.59356 F1: 0.61743, AUROC: 0.89248, AUPRC: 0.66355
+Metric score decreased (-0.614800 --> -0.636927).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 34.61031985282898
+Accuracy: 0.71436, Precision: 0.63186, Recall: 0.60455 F1: 0.60945, AUROC: 0.89089, AUPRC: 0.66189
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 37.683605670928955
+Accuracy: 0.72766, Precision: 0.65330, Recall: 0.60298 F1: 0.62238, AUROC: 0.89400, AUPRC: 0.66426
+Metric score decreased (-0.636927 --> -0.642836).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 37.016173124313354
+Accuracy: 0.72839, Precision: 0.65438, Recall: 0.58838 F1: 0.60593, AUROC: 0.89240, AUPRC: 0.65532
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+>>>>>>>testing : VRAM_PTB-XL_seed_48_dm_128_dp_0.0_tl_6_cl_6_bs_128_lr0.0001_aug_none,frequency0.1,channel0.2,drop0.2_pl_6<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Accuracy: 0.72766, Precision: 0.65330, Recall: 0.60298, F1: 0.62238, AUROC: 0.89400, AUPRC: 0.66426
+
+Use GPU: cuda:0
+>>>>>>>start training : VRAM_PTB-XL_seed_49_dm_128_dp_0.0_tl_6_cl_6_bs_128_lr0.0001_aug_none,frequency0.1,channel0.2,drop0.2_pl_6>>>>>>>>>>>>>>>>>>>>>>>>>>
+(112570, 250, 12)
+(112570,)
+(39280, 250, 12)
+(39280,)
+(39550, 250, 12)
+(39550,)
+Epoch: 1 cost time: 36.64089894294739
+Accuracy: 0.69590, Precision: 0.61409, Recall: 0.53371 F1: 0.54640, AUROC: 0.86890, AUPRC: 0.60539
+Metric score decreased (inf --> -0.566155).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 35.53862285614014
+Accuracy: 0.72071, Precision: 0.67724, Recall: 0.57015 F1: 0.59134, AUROC: 0.88625, AUPRC: 0.64889
+Metric score decreased (-0.566155 --> -0.606651).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 36.305084466934204
+Accuracy: 0.72083, Precision: 0.65298, Recall: 0.57464 F1: 0.59424, AUROC: 0.88782, AUPRC: 0.65437
+Metric score decreased (-0.606651 --> -0.611411).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 36.65121030807495
+Accuracy: 0.72665, Precision: 0.69317, Recall: 0.56775 F1: 0.58801, AUROC: 0.89420, AUPRC: 0.66451
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 38.285319089889526
+Accuracy: 0.72660, Precision: 0.65070, Recall: 0.59618 F1: 0.60743, AUROC: 0.89156, AUPRC: 0.66077
+Metric score decreased (-0.611411 --> -0.623366).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 39.03154969215393
+Accuracy: 0.73284, Precision: 0.67296, Recall: 0.58592 F1: 0.60895, AUROC: 0.89720, AUPRC: 0.66938
+Metric score decreased (-0.623366 --> -0.629679).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 38.43515706062317
+Accuracy: 0.72882, Precision: 0.67967, Recall: 0.57561 F1: 0.59261, AUROC: 0.89690, AUPRC: 0.66911
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 40.01540923118591
+Accuracy: 0.72895, Precision: 0.65435, Recall: 0.58805 F1: 0.60787, AUROC: 0.89740, AUPRC: 0.66489
+Metric score decreased (-0.629679 --> -0.631526).  Saving model ...
+
+Updating learning rate to 0.0001
+>>>>>>>testing : VRAM_PTB-XL_seed_49_dm_128_dp_0.0_tl_6_cl_6_bs_128_lr0.0001_aug_none,frequency0.1,channel0.2,drop0.2_pl_6<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Accuracy: 0.72895, Precision: 0.65435, Recall: 0.58805, F1: 0.60787, AUROC: 0.89740, AUPRC: 0.66489
+
+Use GPU: cuda:0
+>>>>>>>start training : VRAM_PTB-XL_seed_50_dm_128_dp_0.0_tl_6_cl_6_bs_128_lr0.0001_aug_none,frequency0.1,channel0.2,drop0.2_pl_6>>>>>>>>>>>>>>>>>>>>>>>>>>
+(112570, 250, 12)
+(112570,)
+(39280, 250, 12)
+(39280,)
+(39550, 250, 12)
+(39550,)
+Epoch: 1 cost time: 35.79161787033081
+Accuracy: 0.70324, Precision: 0.62341, Recall: 0.54378 F1: 0.55551, AUROC: 0.87109, AUPRC: 0.61122
+Metric score decreased (inf --> -0.568840).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 37.12093496322632
+Accuracy: 0.71315, Precision: 0.64672, Recall: 0.57602 F1: 0.58637, AUROC: 0.88336, AUPRC: 0.63941
+Metric score decreased (-0.568840 --> -0.602331).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 36.11276984214783
+Accuracy: 0.72078, Precision: 0.67950, Recall: 0.56326 F1: 0.58499, AUROC: 0.88672, AUPRC: 0.65325
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 36.72854709625244
+Accuracy: 0.71732, Precision: 0.61993, Recall: 0.59516 F1: 0.60108, AUROC: 0.88630, AUPRC: 0.64095
+Metric score decreased (-0.602331 --> -0.608680).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 37.076722621917725
+Accuracy: 0.72339, Precision: 0.63924, Recall: 0.58273 F1: 0.59934, AUROC: 0.89212, AUPRC: 0.65822
+Metric score decreased (-0.608680 --> -0.614103).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 36.59151530265808
+Accuracy: 0.72973, Precision: 0.66794, Recall: 0.59471 F1: 0.61378, AUROC: 0.89615, AUPRC: 0.66600
+Metric score decreased (-0.614103 --> -0.633128).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 36.39235329627991
+Accuracy: 0.72789, Precision: 0.66570, Recall: 0.59284 F1: 0.61083, AUROC: 0.89476, AUPRC: 0.66344
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 36.99609041213989
+Accuracy: 0.73262, Precision: 0.66766, Recall: 0.59479 F1: 0.61749, AUROC: 0.89708, AUPRC: 0.67022
+Metric score decreased (-0.633128 --> -0.635674).  Saving model ...
+
+Updating learning rate to 0.0001
+>>>>>>>testing : VRAM_PTB-XL_seed_50_dm_128_dp_0.0_tl_6_cl_6_bs_128_lr0.0001_aug_none,frequency0.1,channel0.2,drop0.2_pl_6<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Accuracy: 0.73262, Precision: 0.66766, Recall: 0.59479, F1: 0.61749, AUROC: 0.89708, AUPRC: 0.67022
+
+Use GPU: cuda:0
+>>>>>>>start training : VRAM_PTB-XL_seed_51_dm_128_dp_0.0_tl_6_cl_6_bs_128_lr0.0001_aug_none,frequency0.1,channel0.2,drop0.2_pl_6>>>>>>>>>>>>>>>>>>>>>>>>>>
+(112570, 250, 12)
+(112570,)
+(39280, 250, 12)
+(39280,)
+(39550, 250, 12)
+(39550,)
+Epoch: 1 cost time: 36.92401885986328
+Accuracy: 0.69575, Precision: 0.60876, Recall: 0.52847 F1: 0.52739, AUROC: 0.87027, AUPRC: 0.60507
+Metric score decreased (inf --> -0.549329).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 35.55825209617615
+Accuracy: 0.71145, Precision: 0.66452, Recall: 0.54349 F1: 0.55151, AUROC: 0.88209, AUPRC: 0.63664
+Metric score decreased (-0.549329 --> -0.565446).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 36.90582776069641
+Accuracy: 0.72210, Precision: 0.66624, Recall: 0.56945 F1: 0.59328, AUROC: 0.88610, AUPRC: 0.65142
+Metric score decreased (-0.565446 --> -0.614552).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 36.85717558860779
+Accuracy: 0.73001, Precision: 0.67723, Recall: 0.58641 F1: 0.61044, AUROC: 0.89202, AUPRC: 0.66508
+Metric score decreased (-0.614552 --> -0.624962).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 36.551281213760376
+Accuracy: 0.72303, Precision: 0.66321, Recall: 0.57648 F1: 0.60092, AUROC: 0.89359, AUPRC: 0.66492
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 36.20663499832153
+Accuracy: 0.73378, Precision: 0.66681, Recall: 0.59207 F1: 0.61488, AUROC: 0.89535, AUPRC: 0.66796
+Metric score decreased (-0.624962 --> -0.631686).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 36.56800889968872
+Accuracy: 0.73070, Precision: 0.66958, Recall: 0.57786 F1: 0.59749, AUROC: 0.89424, AUPRC: 0.66189
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 36.68924641609192
+Accuracy: 0.73595, Precision: 0.68769, Recall: 0.59687 F1: 0.61293, AUROC: 0.89581, AUPRC: 0.67394
+EarlyStopping counter: 2 out of 8
+Updating learning rate to 0.0001
+>>>>>>>testing : VRAM_PTB-XL_seed_51_dm_128_dp_0.0_tl_6_cl_6_bs_128_lr0.0001_aug_none,frequency0.1,channel0.2,drop0.2_pl_6<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Accuracy: 0.73378, Precision: 0.66681, Recall: 0.59207, F1: 0.61488, AUROC: 0.89535, AUPRC: 0.66796
+
+Use GPU: cuda:0
+>>>>>>>start training : VRAM_PTB-XL_seed_52_dm_128_dp_0.0_tl_6_cl_6_bs_128_lr0.0001_aug_none,frequency0.1,channel0.2,drop0.2_pl_6>>>>>>>>>>>>>>>>>>>>>>>>>>
+(112570, 250, 12)
+(112570,)
+(39280, 250, 12)
+(39280,)
+(39550, 250, 12)
+(39550,)
+Epoch: 1 cost time: 35.678181886672974
+Accuracy: 0.69214, Precision: 0.62298, Recall: 0.53063 F1: 0.55555, AUROC: 0.87031, AUPRC: 0.60996
+Metric score decreased (inf --> -0.579332).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 37.22442388534546
+Accuracy: 0.70473, Precision: 0.63745, Recall: 0.55150 F1: 0.56579, AUROC: 0.88129, AUPRC: 0.63781
+Metric score decreased (-0.579332 --> -0.580758).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 36.07560420036316
+Accuracy: 0.71970, Precision: 0.65608, Recall: 0.58087 F1: 0.59652, AUROC: 0.88785, AUPRC: 0.65517
+Metric score decreased (-0.580758 --> -0.609245).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 37.04112768173218
+Accuracy: 0.72432, Precision: 0.65514, Recall: 0.58327 F1: 0.59721, AUROC: 0.89156, AUPRC: 0.65669
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 36.171679735183716
+Accuracy: 0.72794, Precision: 0.65598, Recall: 0.58892 F1: 0.60903, AUROC: 0.89378, AUPRC: 0.65972
+Metric score decreased (-0.609245 --> -0.622431).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 36.73436498641968
+Accuracy: 0.72971, Precision: 0.66116, Recall: 0.59367 F1: 0.60633, AUROC: 0.89620, AUPRC: 0.66611
+Metric score decreased (-0.622431 --> -0.622758).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 35.62082028388977
+Accuracy: 0.73295, Precision: 0.66146, Recall: 0.60310 F1: 0.61706, AUROC: 0.89871, AUPRC: 0.67059
+Metric score decreased (-0.622758 --> -0.625469).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 36.01090598106384
+Accuracy: 0.72716, Precision: 0.65983, Recall: 0.58877 F1: 0.59859, AUROC: 0.89480, AUPRC: 0.66242
+EarlyStopping counter: 1 out of 8
+Updating learning rate to 0.0001
+>>>>>>>testing : VRAM_PTB-XL_seed_52_dm_128_dp_0.0_tl_6_cl_6_bs_128_lr0.0001_aug_none,frequency0.1,channel0.2,drop0.2_pl_6<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Accuracy: 0.73295, Precision: 0.66146, Recall: 0.60310, F1: 0.61706, AUROC: 0.89871, AUPRC: 0.67059
+
+Mean accuracy: 0.7312, precision: 0.6607,recall: 0.5962, f1: 0.6159, AUROC: 0.8965, AUPRC: 0.6676
+Std accuracy: 0.0024, precision: 0.0060,recall: 0.0060, f1: 0.0047, AUROC: 0.0017, AUPRC: 0.0026
