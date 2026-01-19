@@ -7,7 +7,7 @@
 
 1. Install requirements. ```pip install -r requirements.txt```
 2. Download data. You can download *APAVA, ADFTD, PTB, and PTB-XL* from [**Medformer**](https://github.com/DL4mHealth/Medformer). **All the datasets are well pre-processed**. For the *TDBrain and MIMIC* dataset, we refer to first downloading the raw dataset from [**TDBrain**](https://brainclinics.com/resources/) and [**MIMIC**](https://physionet.org/content/mimic-iv-ecg/1.0/), respectively. Then, preprocess them using ```data_preprocessing/TDBRAIN_preprocessing.ipynb``` and ```data_preprocessing/MIMIC-IV_preprocessing.ipynb```. Finally, place all datasets under the folder ```./dataset```.
-3. Get the VLM embedding. You can use comments below './scripts/get_vlm_emb' to get the VLM embeddings of all datasets. Such as ```bash scripts/get_vlm_emb/APAVA.sh```
+3. Get the VLM embedding. You can use comments below ***'./scripts/get_vlm_emb'*** to get the VLM embeddings of all datasets. Such as ```bash scripts/get_vlm_emb/APAVA.sh```
 4. Since obtaining the VLM embeddings is quite time-consuming, we provide the preprocessed VLM embeddings of all datasets in this [**Link**](https://huggingface.co/datasets/2Levi/VLM4MedTS/resolve/main/emb_VLM.zip). ***Please download and unzip to facilitate your reproduction***.
 5. Train the model. We provide the experiment scripts of all benchmarks under the folder `./scripts`. Such as ```bash ./scripts/APAVA.sh ``` to get the result of  **APAVA**. You can find the training history and results under the './logs' folder.
 
