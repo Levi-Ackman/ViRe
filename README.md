@@ -17,7 +17,7 @@ Department of Biomedical Engineering and Sports Technology, The Hong Kong Polyte
 
 </div>
 
-> **TL;DR** &nbsp; Clinicians diagnose EEG and ECG by *looking at waveforms*, while deep MedTS models only see numbers. ViRe renders every recording as a waveform image, encodes it with a **frozen CLIP vision encoder**, and uses the embedding as a morphology-aware **Vision Query** that retrieves the relevant temporal and channel evidence from the numerical representation.
+> **TL;DR** &nbsp; Clinicians diagnose EEG and ECG by ***looking at waveforms***, while deep MedTS models only see numbers. ViRe renders every recording as a waveform image, encodes it with a **frozen CLIP vision encoder**, and uses the embedding as a morphology-aware **Vision Query** that retrieves the relevant temporal and channel evidence from the numerical representation.
 
 ---
 
