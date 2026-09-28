@@ -180,7 +180,7 @@ ViRe/
 <img src="assets/retrieved_features_tsne.jpg" width="82%" alt="t-SNE of retrieved features">
 </div>
 
-**Retrieved feature space.** (a) With the Vision Query the classes form compact manifolds, whereas zero or Gaussian queries scatter them. (b) The query itself sits inside the dense region of the temporal-token manifold rather than being an outlier.
+**Retrieved feature space.** (a) With the Vision Query the classes form compact manifolds, whereas zero or Gaussian queries scatter them. (b) The query itself sits inside the dense region of the manifold rather than being an outlier.
 
 ## 📈 Additional Analyses
 
@@ -194,7 +194,7 @@ ViRe/
 <img src="assets/rendering_sensitivity.png" width="94%" alt="Rendering sensitivity">
 </div>
 
-**Rendering sensitivity.** Extremely low resolution or an inappropriate line width degrades the CLIP prior, whereas moderate settings are stable and channel coloring is irrelevant: ViRe relies on global waveform morphology rather than color cues.
+**Rendering sensitivity.** Extremely low resolution or an inappropriate line width degrades the CLIP prior, whereas moderate settings are stable and channel coloring is irrelevant: ViRe relies on global waveform morphology.
 
 ## 📝 Notes
 
