@@ -23,7 +23,7 @@ Department of Biomedical Engineering and Sports Technology, The Hong Kong Polyte
 
 ## 📰 News
 
-- **[2026.09]** Official code release: training scripts for all six benchmarks, the visualization operator, reference training logs, and precomputed CLIP features.
+- **[2026.09]** Official code release: training scripts for all benchmarks, the visualization operator, training logs, and precomputed CLIP features.
 - **[2026]** ViRe is accepted at **NeurIPS 2026**.
 
 ## 💡 Motivation
@@ -47,10 +47,10 @@ ViRe keeps a dual view of every recording and lets the two views interact throug
 ## ✨ Highlights
 
 - 🏆 **State of the art on 5 of 6 subject-independent benchmarks** (three EEG, three ECG) with an average relative gain of **6.42%** over Medformer, including **16.37%** on APAVA.
-- 🧠 **The gain comes from the vision prior, not from capacity.** Content-free queries (all-zero or Gaussian) add at most 1.92%, an ImageNet-pretrained ViT adds 0.34%, while the CLIP vision encoder adds 7.72% on the same architecture.
+- 🧠 **The gain comes from the vision prior, not from capacity.** Content-free queries (all-zero or Gaussian) add at most 1.92%, an ImageNet-pretrained ViT adds 0.34%, while the CLIP vision encoder adds 7.72%.
 - 📉 **Data-efficient.** The advantage over the numerical-only model is largest when only a fraction of the training subjects is available.
 - 🔎 **Interpretable.** Retrieval attention concentrates on high-curvature, QRS-aligned intervals, and the frozen visual space decodes clinical attributes such as PR interval and prolonged QT on MEETI.
-- ⚡ **Cheap to train.** CLIP features are computed once and cached, so a training step is faster and lighter than Medformer's.
+- ⚡ **Cheap to train.** CLIP features are computed once and cached, so the training is fast and light.
 
 ## 📊 Main Results
 
@@ -124,13 +124,13 @@ pip install -r requirements.txt
 | PTB-XL | ECG | Diagnostic superclasses (5 classes) | preprocessed by [Medformer](https://github.com/DL4mHealth/Medformer) |
 | MIMIC | ECG | Heart disease vs. healthy (2 classes) | raw data from [MIMIC-IV-ECG](https://physionet.org/content/mimic-iv-ecg/1.0/), then `data_preprocessing/MIMIC-IV_preprocessing.ipynb` |
 
-All benchmarks follow the **subject-independent** protocol: subjects are assigned to the training, validation or test set before any preprocessing, so every test sample comes from an unseen patient. Place the datasets under `./dataset/` (e.g. `./dataset/APAVA/`, `./dataset/PTB-XL/`) in the Medformer layout.
+All benchmarks follow the **subject-independent** protocol: subjects are assigned to the training, validation or test set before any preprocessing, so every test sample comes from an unseen patient. Place the datasets under `./dataset/` (e.g. `./dataset/APAVA/`, `./dataset/PTB-XL/`).
 
 ### 3. Vision Query features
 
 ViRe never back-propagates through CLIP, so the image embedding of every sample is computed **once** and cached under `./emb_VLM/<DATASET>/<split>/`. Two options:
 
-- **Download (recommended).** The precomputed features of all six datasets are available at this [Link](https://huggingface.co/datasets/2Levi/VLM4MedTS/resolve/main/emb_VLM.zip); unzip the archive in the repository root.
+- **Download (recommended).** The precomputed features of all six datasets are available at this [**Link**](https://huggingface.co/datasets/2Levi/VLM4MedTS/resolve/main/emb_VLM.zip); unzip the archive in the repository root.
 - **Regenerate.** `Gen_VLM/` renders each sample with the visualization operator and encodes it with a frozen OpenCLIP `convnext_large_d` model (weights are downloaded automatically on first use):
 
   ```bash
@@ -153,12 +153,13 @@ Each script trains **five seeds**, keeps the checkpoint with the best validation
 
 ```
 ViRe/
-├── run.py                       # entry point: seeds and the training / evaluation loop
+├── run.py                       # entry point: seeds and the training/evaluation loop
 ├── exp/exp_classification.py    # training, validation-based early stopping, testing
 ├── models/ViRe.py               # temporal & channel encoders, CLIP query, dual cross-attention retrieval
 ├── layers/                      # embeddings, Transformer / cross-attention layers, augmentations
 ├── data_provider/               # dataset loaders with cached CLIP features
 ├── Gen_VLM/                     # visualization operator + frozen CLIP encoder, feature caching
+├── emb_VLM/<DATASET>/<split>/   # precomputed CLIP features for each dataset and each split
 ├── data_preprocessing/          # notebooks for TDBrain and MIMIC-IV-ECG
 ├── Visualization_operator.ipynb # renders the stacked waveform image of a sample
 ├── scripts/                     # one training script per benchmark, feature-extraction scripts
