@@ -180,7 +180,9 @@ ViRe/
 <img src="assets/retrieved_features_tsne.jpg" width="82%" alt="t-SNE of retrieved features">
 </div>
 
-**Retrieved feature space.** (a). With the Vision Query the classes form compact manifolds, whereas zero or Gaussian queries scatter them (a). (b). The query itself sits inside the dense region of the temporal-token manifold rather than being an outlier.
+**Retrieved feature space.** (a). With the Vision Query the classes form compact manifolds, whereas zero or Gaussian queries scatter them. 
+
+(b). The query itself sits inside the dense region of the temporal-token manifold rather than being an outlier.
 
 ## 📈 Additional Analyses
 
@@ -200,7 +202,7 @@ ViRe/
 
 - The precomputed feature archive is about 1.4 GB; regenerating the features instead requires a GPU and downloads the OpenCLIP weights on first use.
 - Seeds are fixed and cuDNN runs in deterministic mode, but small numerical differences across GPU models and library versions are expected; the reference logs document the exact runs behind the paper.
-- `--c_layer 0` disables the channel encoder, which is the setting used for TDBrain; all other benchmarks use both encoders.
+- `--c_layer 0` disables the channel encoder, which is the setting used for TDBrain; all others use both encoders.
 
 ## 📚 Citation
 
@@ -208,7 +210,7 @@ ViRe/
 @inproceedings{
 anonymous2026revitalizing,
 title={Revitalizing Medical Time Series with Vision-Informed Retrieval: A Vision-Language Perspective},
-author={Anonymous},
+author={Guoqi Yu, Juncheng Wang, and Shujun Wang},
 booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
 year={2026},
 url={https://openreview.net/forum?id=KUlrtLsdT8}
