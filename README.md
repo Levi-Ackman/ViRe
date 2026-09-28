@@ -180,9 +180,7 @@ ViRe/
 <img src="assets/retrieved_features_tsne.jpg" width="82%" alt="t-SNE of retrieved features">
 </div>
 
-**Retrieved feature space.** (a). With the Vision Query the classes form compact manifolds, whereas zero or Gaussian queries scatter them. 
-
-(b). The query itself sits inside the dense region of the temporal-token manifold rather than being an outlier.
+**Retrieved feature space.** (a) With the Vision Query the classes form compact manifolds, whereas zero or Gaussian queries scatter them. (b) The query itself sits inside the dense region of the temporal-token manifold rather than being an outlier.
 
 ## 📈 Additional Analyses
 
