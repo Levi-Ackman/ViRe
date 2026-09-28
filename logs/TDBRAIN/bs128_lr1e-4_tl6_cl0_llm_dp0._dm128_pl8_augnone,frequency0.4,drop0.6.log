@@ -1,0 +1,1393 @@
+A total 96 CPUs are used, making sure that num_worker is small than the number of CPUs
+Use GPU: cuda:0
+>>>>>>>start training : VRAM_TDBRAIN_seed_56_dm_128_dp_0.0_tl_6_cl_0_bs_128_lr0.0001_aug_none,frequency0.4,drop0.6_pl_8>>>>>>>>>>>>>>>>>>>>>>>>>>
+(4320, 256, 33)
+(4320,)
+(960, 256, 33)
+(960,)
+(960, 256, 33)
+(960,)
+Epoch: 1 cost time: 2.03350567817688
+Accuracy: 0.85000, Precision: 0.85519, Recall: 0.85000 F1: 0.84945, AUROC: 0.93690, AUPRC: 0.93683
+Metric score decreased (inf --> -0.855608).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.484344482421875
+Accuracy: 0.83958, Precision: 0.84058, Recall: 0.83958 F1: 0.83947, AUROC: 0.92156, AUPRC: 0.92077
+Metric score decreased (-0.855608 --> -0.865572).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 1.5634009838104248
+Accuracy: 0.83542, Precision: 0.84601, Recall: 0.83542 F1: 0.83415, AUROC: 0.93646, AUPRC: 0.93720
+Metric score decreased (-0.865572 --> -0.890405).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 1.582749605178833
+Accuracy: 0.86667, Precision: 0.87173, Recall: 0.86667 F1: 0.86621, AUROC: 0.95975, AUPRC: 0.96050
+Metric score decreased (-0.890405 --> -0.929167).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 1.7957942485809326
+Accuracy: 0.85625, Precision: 0.86864, Recall: 0.85625 F1: 0.85503, AUROC: 0.95949, AUPRC: 0.95998
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 1.4964196681976318
+Accuracy: 0.89271, Precision: 0.89915, Recall: 0.89271 F1: 0.89227, AUROC: 0.96844, AUPRC: 0.96896
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 1.520153522491455
+Accuracy: 0.91458, Precision: 0.91621, Recall: 0.91458 F1: 0.91450, AUROC: 0.97061, AUPRC: 0.97073
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 1.562333106994629
+Accuracy: 0.85000, Precision: 0.87251, Recall: 0.85000 F1: 0.84770, AUROC: 0.97265, AUPRC: 0.97329
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 9 cost time: 1.641942024230957
+Accuracy: 0.91146, Precision: 0.91160, Recall: 0.91146 F1: 0.91145, AUROC: 0.97369, AUPRC: 0.97406
+Metric score decreased (-0.929167 --> -0.948924).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 10 cost time: 1.5126464366912842
+Accuracy: 0.89583, Precision: 0.89983, Recall: 0.89583 F1: 0.89557, AUROC: 0.97277, AUPRC: 0.97287
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 11 cost time: 1.542159080505371
+Accuracy: 0.85625, Precision: 0.87755, Recall: 0.85625 F1: 0.85419, AUROC: 0.96589, AUPRC: 0.96618
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 12 cost time: 1.5609071254730225
+Accuracy: 0.88125, Precision: 0.88953, Recall: 0.88125 F1: 0.88062, AUROC: 0.97120, AUPRC: 0.97139
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 13 cost time: 1.4786012172698975
+Accuracy: 0.92812, Precision: 0.92895, Recall: 0.92812 F1: 0.92809, AUROC: 0.97749, AUPRC: 0.97778
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 14 cost time: 1.4933068752288818
+Accuracy: 0.87396, Precision: 0.88790, Recall: 0.87396 F1: 0.87282, AUROC: 0.97238, AUPRC: 0.97272
+Metric score decreased (-0.948924 --> -0.949969).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 15 cost time: 1.4119250774383545
+Accuracy: 0.91563, Precision: 0.92037, Recall: 0.91563 F1: 0.91539, AUROC: 0.97794, AUPRC: 0.97805
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 16 cost time: 1.5327682495117188
+Accuracy: 0.91979, Precision: 0.91988, Recall: 0.91979 F1: 0.91979, AUROC: 0.97740, AUPRC: 0.97762
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 17 cost time: 1.5560054779052734
+Accuracy: 0.90521, Precision: 0.90737, Recall: 0.90521 F1: 0.90508, AUROC: 0.97347, AUPRC: 0.97343
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 18 cost time: 1.5540568828582764
+Accuracy: 0.92083, Precision: 0.92321, Recall: 0.92083 F1: 0.92072, AUROC: 0.97796, AUPRC: 0.97814
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 19 cost time: 1.4850080013275146
+Accuracy: 0.90312, Precision: 0.90931, Recall: 0.90312 F1: 0.90276, AUROC: 0.97746, AUPRC: 0.97778
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 20 cost time: 1.4786765575408936
+Accuracy: 0.93021, Precision: 0.93030, Recall: 0.93021 F1: 0.93020, AUROC: 0.97985, AUPRC: 0.98028
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 21 cost time: 1.471099853515625
+Accuracy: 0.91146, Precision: 0.91579, Recall: 0.91146 F1: 0.91123, AUROC: 0.98126, AUPRC: 0.98150
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 22 cost time: 1.6209759712219238
+Accuracy: 0.92604, Precision: 0.92627, Recall: 0.92604 F1: 0.92603, AUROC: 0.98283, AUPRC: 0.98307
+Metric score decreased (-0.949969 --> -0.957263).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 23 cost time: 1.6130056381225586
+Accuracy: 0.92083, Precision: 0.92751, Recall: 0.92083 F1: 0.92052, AUROC: 0.97925, AUPRC: 0.97861
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 24 cost time: 1.6438887119293213
+Accuracy: 0.90833, Precision: 0.91212, Recall: 0.90833 F1: 0.90812, AUROC: 0.97661, AUPRC: 0.97708
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 25 cost time: 1.655040979385376
+Accuracy: 0.90938, Precision: 0.91210, Recall: 0.90938 F1: 0.90923, AUROC: 0.97467, AUPRC: 0.97495
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 26 cost time: 1.5627126693725586
+Accuracy: 0.92188, Precision: 0.92188, Recall: 0.92188 F1: 0.92187, AUROC: 0.98025, AUPRC: 0.98060
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 27 cost time: 1.4780869483947754
+Accuracy: 0.92396, Precision: 0.92397, Recall: 0.92396 F1: 0.92396, AUROC: 0.97661, AUPRC: 0.97686
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 28 cost time: 1.6207847595214844
+Accuracy: 0.93437, Precision: 0.93438, Recall: 0.93437 F1: 0.93437, AUROC: 0.98389, AUPRC: 0.98413
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 29 cost time: 1.5219383239746094
+Accuracy: 0.93750, Precision: 0.93787, Recall: 0.93750 F1: 0.93749, AUROC: 0.98462, AUPRC: 0.98487
+Metric score decreased (-0.957263 --> -0.957284).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 30 cost time: 1.5050933361053467
+Accuracy: 0.91771, Precision: 0.92503, Recall: 0.91771 F1: 0.91735, AUROC: 0.98442, AUPRC: 0.98282
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 31 cost time: 1.4967961311340332
+Accuracy: 0.93229, Precision: 0.93234, Recall: 0.93229 F1: 0.93229, AUROC: 0.98398, AUPRC: 0.98435
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 32 cost time: 1.4895150661468506
+Accuracy: 0.93229, Precision: 0.93244, Recall: 0.93229 F1: 0.93229, AUROC: 0.98281, AUPRC: 0.98290
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 33 cost time: 1.4929625988006592
+Accuracy: 0.89167, Precision: 0.90660, Recall: 0.89167 F1: 0.89066, AUROC: 0.98444, AUPRC: 0.98435
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 34 cost time: 1.4951770305633545
+Accuracy: 0.93646, Precision: 0.93829, Recall: 0.93646 F1: 0.93639, AUROC: 0.98668, AUPRC: 0.98681
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 35 cost time: 1.5620081424713135
+Accuracy: 0.89167, Precision: 0.90466, Recall: 0.89167 F1: 0.89079, AUROC: 0.98180, AUPRC: 0.98235
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 36 cost time: 1.5830426216125488
+Accuracy: 0.93125, Precision: 0.93186, Recall: 0.93125 F1: 0.93123, AUROC: 0.98476, AUPRC: 0.98498
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 37 cost time: 1.5055451393127441
+Accuracy: 0.93854, Precision: 0.93870, Recall: 0.93854 F1: 0.93854, AUROC: 0.98666, AUPRC: 0.98697
+EarlyStopping counter: 8 out of 64
+Updating learning rate to 0.0001
+Epoch: 38 cost time: 1.5574126243591309
+Accuracy: 0.93750, Precision: 0.93769, Recall: 0.93750 F1: 0.93749, AUROC: 0.98692, AUPRC: 0.98717
+EarlyStopping counter: 9 out of 64
+Updating learning rate to 0.0001
+Epoch: 39 cost time: 1.5147171020507812
+Accuracy: 0.92500, Precision: 0.92797, Recall: 0.92500 F1: 0.92487, AUROC: 0.98475, AUPRC: 0.98513
+EarlyStopping counter: 10 out of 64
+Updating learning rate to 0.0001
+Epoch: 40 cost time: 1.339935541152954
+Accuracy: 0.92396, Precision: 0.92573, Recall: 0.92396 F1: 0.92388, AUROC: 0.98131, AUPRC: 0.98098
+EarlyStopping counter: 11 out of 64
+Updating learning rate to 0.0001
+Epoch: 41 cost time: 1.313209056854248
+Accuracy: 0.93125, Precision: 0.93272, Recall: 0.93125 F1: 0.93119, AUROC: 0.98503, AUPRC: 0.98503
+EarlyStopping counter: 12 out of 64
+Updating learning rate to 0.0001
+Epoch: 42 cost time: 1.425647497177124
+Accuracy: 0.94063, Precision: 0.94147, Recall: 0.94063 F1: 0.94060, AUROC: 0.98620, AUPRC: 0.98627
+EarlyStopping counter: 13 out of 64
+Updating learning rate to 0.0001
+Epoch: 43 cost time: 1.553699254989624
+Accuracy: 0.93542, Precision: 0.93569, Recall: 0.93542 F1: 0.93541, AUROC: 0.98662, AUPRC: 0.98680
+Metric score decreased (-0.957284 --> -0.958332).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 44 cost time: 1.8482682704925537
+Accuracy: 0.93958, Precision: 0.94051, Recall: 0.93958 F1: 0.93955, AUROC: 0.98566, AUPRC: 0.98578
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 45 cost time: 1.6451992988586426
+Accuracy: 0.93958, Precision: 0.93971, Recall: 0.93958 F1: 0.93958, AUROC: 0.98598, AUPRC: 0.98634
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 46 cost time: 1.5671000480651855
+Accuracy: 0.92708, Precision: 0.92756, Recall: 0.92708 F1: 0.92706, AUROC: 0.98228, AUPRC: 0.98286
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 47 cost time: 1.5999696254730225
+Accuracy: 0.93125, Precision: 0.93144, Recall: 0.93125 F1: 0.93124, AUROC: 0.98285, AUPRC: 0.98334
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 48 cost time: 1.730299472808838
+Accuracy: 0.92812, Precision: 0.92817, Recall: 0.92813 F1: 0.92812, AUROC: 0.98218, AUPRC: 0.98271
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 49 cost time: 1.6755735874176025
+Accuracy: 0.90208, Precision: 0.91299, Recall: 0.90208 F1: 0.90143, AUROC: 0.98402, AUPRC: 0.98444
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 50 cost time: 1.779953956604004
+Accuracy: 0.90938, Precision: 0.92137, Recall: 0.90938 F1: 0.90873, AUROC: 0.98793, AUPRC: 0.98823
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 51 cost time: 1.8100612163543701
+Accuracy: 0.91354, Precision: 0.92333, Recall: 0.91354 F1: 0.91304, AUROC: 0.98895, AUPRC: 0.98917
+EarlyStopping counter: 8 out of 64
+Updating learning rate to 0.0001
+Epoch: 52 cost time: 1.642369031906128
+Accuracy: 0.93854, Precision: 0.93870, Recall: 0.93854 F1: 0.93854, AUROC: 0.98933, AUPRC: 0.98967
+EarlyStopping counter: 9 out of 64
+Updating learning rate to 0.0001
+Epoch: 53 cost time: 1.6466047763824463
+Accuracy: 0.89062, Precision: 0.90798, Recall: 0.89062 F1: 0.88945, AUROC: 0.98633, AUPRC: 0.98667
+EarlyStopping counter: 10 out of 64
+Updating learning rate to 0.0001
+Epoch: 54 cost time: 1.6700928211212158
+Accuracy: 0.93958, Precision: 0.93986, Recall: 0.93958 F1: 0.93957, AUROC: 0.98705, AUPRC: 0.98735
+EarlyStopping counter: 11 out of 64
+Updating learning rate to 0.0001
+Epoch: 55 cost time: 1.5945401191711426
+Accuracy: 0.93750, Precision: 0.93826, Recall: 0.93750 F1: 0.93747, AUROC: 0.98781, AUPRC: 0.98813
+EarlyStopping counter: 12 out of 64
+Updating learning rate to 0.0001
+Epoch: 56 cost time: 1.5036168098449707
+Accuracy: 0.93958, Precision: 0.94051, Recall: 0.93958 F1: 0.93955, AUROC: 0.98724, AUPRC: 0.98758
+EarlyStopping counter: 13 out of 64
+Updating learning rate to 0.0001
+Epoch: 57 cost time: 1.585085391998291
+Accuracy: 0.93542, Precision: 0.93554, Recall: 0.93542 F1: 0.93541, AUROC: 0.98722, AUPRC: 0.98753
+EarlyStopping counter: 14 out of 64
+Updating learning rate to 0.0001
+Epoch: 58 cost time: 1.739398717880249
+Accuracy: 0.93333, Precision: 0.93345, Recall: 0.93333 F1: 0.93333, AUROC: 0.98577, AUPRC: 0.98620
+EarlyStopping counter: 15 out of 64
+Updating learning rate to 0.0001
+Epoch: 59 cost time: 1.6505296230316162
+Accuracy: 0.90104, Precision: 0.91054, Recall: 0.90104 F1: 0.90047, AUROC: 0.98206, AUPRC: 0.98271
+EarlyStopping counter: 16 out of 64
+Updating learning rate to 0.0001
+Epoch: 60 cost time: 1.6554126739501953
+Accuracy: 0.94063, Precision: 0.94063, Recall: 0.94063 F1: 0.94062, AUROC: 0.98738, AUPRC: 0.98770
+EarlyStopping counter: 17 out of 64
+Updating learning rate to 0.0001
+Epoch: 61 cost time: 1.6434719562530518
+Accuracy: 0.94063, Precision: 0.94072, Recall: 0.94063 F1: 0.94062, AUROC: 0.98792, AUPRC: 0.98822
+EarlyStopping counter: 18 out of 64
+Updating learning rate to 0.0001
+Epoch: 62 cost time: 1.648686170578003
+Accuracy: 0.94271, Precision: 0.94314, Recall: 0.94271 F1: 0.94269, AUROC: 0.98845, AUPRC: 0.98872
+Metric score decreased (-0.958332 --> -0.962484).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 63 cost time: 1.645568609237671
+Accuracy: 0.91354, Precision: 0.92176, Recall: 0.91354 F1: 0.91312, AUROC: 0.98780, AUPRC: 0.98792
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 64 cost time: 1.6261391639709473
+Accuracy: 0.94479, Precision: 0.94564, Recall: 0.94479 F1: 0.94477, AUROC: 0.98984, AUPRC: 0.99010
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+>>>>>>>testing : VRAM_TDBRAIN_seed_56_dm_128_dp_0.0_tl_6_cl_0_bs_128_lr0.0001_aug_none,frequency0.4,drop0.6_pl_8<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Accuracy: 0.94271, Precision: 0.94314, Recall: 0.94271, F1: 0.94269, AUROC: 0.98845, AUPRC: 0.98872
+
+Use GPU: cuda:0
+>>>>>>>start training : VRAM_TDBRAIN_seed_57_dm_128_dp_0.0_tl_6_cl_0_bs_128_lr0.0001_aug_none,frequency0.4,drop0.6_pl_8>>>>>>>>>>>>>>>>>>>>>>>>>>
+(4320, 256, 33)
+(4320,)
+(960, 256, 33)
+(960,)
+(960, 256, 33)
+(960,)
+Epoch: 1 cost time: 1.8513729572296143
+Accuracy: 0.78854, Precision: 0.84017, Recall: 0.78854 F1: 0.78020, AUROC: 0.94151, AUPRC: 0.94058
+Metric score decreased (inf --> -0.776083).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.7079575061798096
+Accuracy: 0.84062, Precision: 0.84365, Recall: 0.84062 F1: 0.84027, AUROC: 0.92884, AUPRC: 0.92926
+Metric score decreased (-0.776083 --> -0.894667).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 1.5908057689666748
+Accuracy: 0.87604, Precision: 0.87724, Recall: 0.87604 F1: 0.87594, AUROC: 0.95333, AUPRC: 0.95448
+Metric score decreased (-0.894667 --> -0.921813).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 1.8408379554748535
+Accuracy: 0.84062, Precision: 0.85844, Recall: 0.84062 F1: 0.83862, AUROC: 0.95473, AUPRC: 0.95587
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 1.7602148056030273
+Accuracy: 0.88438, Precision: 0.88667, Recall: 0.88438 F1: 0.88420, AUROC: 0.96058, AUPRC: 0.96140
+Metric score decreased (-0.921813 --> -0.921861).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 1.7603917121887207
+Accuracy: 0.86875, Precision: 0.88219, Recall: 0.86875 F1: 0.86759, AUROC: 0.96245, AUPRC: 0.96338
+Metric score decreased (-0.921861 --> -0.929115).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 1.6702196598052979
+Accuracy: 0.87708, Precision: 0.89419, Recall: 0.87708 F1: 0.87573, AUROC: 0.96440, AUPRC: 0.96528
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 1.6378653049468994
+Accuracy: 0.89479, Precision: 0.89742, Recall: 0.89479 F1: 0.89462, AUROC: 0.96665, AUPRC: 0.96648
+Metric score decreased (-0.929115 --> -0.945818).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 9 cost time: 1.7679333686828613
+Accuracy: 0.90104, Precision: 0.90181, Recall: 0.90104 F1: 0.90099, AUROC: 0.96886, AUPRC: 0.96924
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 10 cost time: 1.6374037265777588
+Accuracy: 0.91042, Precision: 0.91203, Recall: 0.91042 F1: 0.91033, AUROC: 0.97232, AUPRC: 0.97279
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 11 cost time: 1.7275636196136475
+Accuracy: 0.86146, Precision: 0.88111, Recall: 0.86146 F1: 0.85965, AUROC: 0.97207, AUPRC: 0.97251
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 12 cost time: 1.846144676208496
+Accuracy: 0.89479, Precision: 0.89861, Recall: 0.89479 F1: 0.89454, AUROC: 0.96551, AUPRC: 0.96617
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 13 cost time: 1.7574939727783203
+Accuracy: 0.85104, Precision: 0.87164, Recall: 0.85104 F1: 0.84895, AUROC: 0.96875, AUPRC: 0.96942
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 14 cost time: 1.9231078624725342
+Accuracy: 0.90729, Precision: 0.90858, Recall: 0.90729 F1: 0.90722, AUROC: 0.97316, AUPRC: 0.97365
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 15 cost time: 1.834242820739746
+Accuracy: 0.92917, Precision: 0.92977, Recall: 0.92917 F1: 0.92914, AUROC: 0.97667, AUPRC: 0.97714
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 16 cost time: 1.750143051147461
+Accuracy: 0.91458, Precision: 0.91951, Recall: 0.91458 F1: 0.91433, AUROC: 0.97903, AUPRC: 0.97932
+EarlyStopping counter: 8 out of 64
+Updating learning rate to 0.0001
+Epoch: 17 cost time: 1.6924107074737549
+Accuracy: 0.92604, Precision: 0.92686, Recall: 0.92604 F1: 0.92601, AUROC: 0.97766, AUPRC: 0.97795
+EarlyStopping counter: 9 out of 64
+Updating learning rate to 0.0001
+Epoch: 18 cost time: 1.7115693092346191
+Accuracy: 0.91979, Precision: 0.92179, Recall: 0.91979 F1: 0.91970, AUROC: 0.98095, AUPRC: 0.98137
+Metric score decreased (-0.945818 --> -0.959371).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 19 cost time: 1.629936695098877
+Accuracy: 0.93854, Precision: 0.93877, Recall: 0.93854 F1: 0.93853, AUROC: 0.97847, AUPRC: 0.97872
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 20 cost time: 1.703357219696045
+Accuracy: 0.91146, Precision: 0.91276, Recall: 0.91146 F1: 0.91139, AUROC: 0.97058, AUPRC: 0.97104
+Metric score decreased (-0.959371 --> -0.961446).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 21 cost time: 1.5688037872314453
+Accuracy: 0.91771, Precision: 0.92109, Recall: 0.91771 F1: 0.91754, AUROC: 0.98023, AUPRC: 0.98062
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 22 cost time: 1.760340690612793
+Accuracy: 0.93542, Precision: 0.93603, Recall: 0.93542 F1: 0.93539, AUROC: 0.98125, AUPRC: 0.98154
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 23 cost time: 1.6357314586639404
+Accuracy: 0.93229, Precision: 0.93312, Recall: 0.93229 F1: 0.93226, AUROC: 0.98241, AUPRC: 0.98290
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 24 cost time: 1.846466064453125
+Accuracy: 0.92083, Precision: 0.92207, Recall: 0.92083 F1: 0.92078, AUROC: 0.97678, AUPRC: 0.97705
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 25 cost time: 1.6866698265075684
+Accuracy: 0.91771, Precision: 0.92211, Recall: 0.91771 F1: 0.91749, AUROC: 0.98138, AUPRC: 0.98167
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 26 cost time: 1.669285774230957
+Accuracy: 0.91979, Precision: 0.92060, Recall: 0.91979 F1: 0.91975, AUROC: 0.97376, AUPRC: 0.97377
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 27 cost time: 1.9175655841827393
+Accuracy: 0.92396, Precision: 0.92418, Recall: 0.92396 F1: 0.92395, AUROC: 0.97983, AUPRC: 0.98027
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 28 cost time: 1.90110445022583
+Accuracy: 0.89271, Precision: 0.90364, Recall: 0.89271 F1: 0.89198, AUROC: 0.97572, AUPRC: 0.97615
+EarlyStopping counter: 8 out of 64
+Updating learning rate to 0.0001
+Epoch: 29 cost time: 1.8961329460144043
+Accuracy: 0.92292, Precision: 0.92756, Recall: 0.92292 F1: 0.92271, AUROC: 0.98026, AUPRC: 0.98074
+EarlyStopping counter: 9 out of 64
+Updating learning rate to 0.0001
+Epoch: 30 cost time: 1.662839651107788
+Accuracy: 0.93854, Precision: 0.93870, Recall: 0.93854 F1: 0.93854, AUROC: 0.98345, AUPRC: 0.98386
+EarlyStopping counter: 10 out of 64
+Updating learning rate to 0.0001
+Epoch: 31 cost time: 1.7066211700439453
+Accuracy: 0.92083, Precision: 0.92508, Recall: 0.92083 F1: 0.92063, AUROC: 0.98125, AUPRC: 0.98151
+EarlyStopping counter: 11 out of 64
+Updating learning rate to 0.0001
+Epoch: 32 cost time: 1.4670376777648926
+Accuracy: 0.90521, Precision: 0.91770, Recall: 0.90521 F1: 0.90449, AUROC: 0.98882, AUPRC: 0.98909
+EarlyStopping counter: 12 out of 64
+Updating learning rate to 0.0001
+Epoch: 33 cost time: 1.489603042602539
+Accuracy: 0.93750, Precision: 0.93945, Recall: 0.93750 F1: 0.93743, AUROC: 0.98531, AUPRC: 0.98568
+EarlyStopping counter: 13 out of 64
+Updating learning rate to 0.0001
+Epoch: 34 cost time: 1.5770862102508545
+Accuracy: 0.90312, Precision: 0.91377, Recall: 0.90312 F1: 0.90250, AUROC: 0.98507, AUPRC: 0.98541
+EarlyStopping counter: 14 out of 64
+Updating learning rate to 0.0001
+Epoch: 35 cost time: 1.7735512256622314
+Accuracy: 0.88646, Precision: 0.89837, Recall: 0.88646 F1: 0.88560, AUROC: 0.97920, AUPRC: 0.97985
+EarlyStopping counter: 15 out of 64
+Updating learning rate to 0.0001
+Epoch: 36 cost time: 1.813281774520874
+Accuracy: 0.93437, Precision: 0.93575, Recall: 0.93437 F1: 0.93432, AUROC: 0.98468, AUPRC: 0.98506
+EarlyStopping counter: 16 out of 64
+Updating learning rate to 0.0001
+Epoch: 37 cost time: 1.880664348602295
+Accuracy: 0.88750, Precision: 0.90295, Recall: 0.88750 F1: 0.88641, AUROC: 0.98543, AUPRC: 0.98581
+EarlyStopping counter: 17 out of 64
+Updating learning rate to 0.0001
+Epoch: 38 cost time: 1.6948010921478271
+Accuracy: 0.94271, Precision: 0.94565, Recall: 0.94271 F1: 0.94261, AUROC: 0.98810, AUPRC: 0.98817
+EarlyStopping counter: 18 out of 64
+Updating learning rate to 0.0001
+Epoch: 39 cost time: 1.7467646598815918
+Accuracy: 0.91667, Precision: 0.92328, Recall: 0.91667 F1: 0.91634, AUROC: 0.98500, AUPRC: 0.98479
+EarlyStopping counter: 19 out of 64
+Updating learning rate to 0.0001
+Epoch: 40 cost time: 1.7402572631835938
+Accuracy: 0.94479, Precision: 0.94564, Recall: 0.94479 F1: 0.94477, AUROC: 0.98641, AUPRC: 0.98637
+EarlyStopping counter: 20 out of 64
+Updating learning rate to 0.0001
+Epoch: 41 cost time: 1.9210245609283447
+Accuracy: 0.85729, Precision: 0.88700, Recall: 0.85729 F1: 0.85450, AUROC: 0.98771, AUPRC: 0.98768
+EarlyStopping counter: 21 out of 64
+Updating learning rate to 0.0001
+Epoch: 42 cost time: 1.6174731254577637
+Accuracy: 0.94688, Precision: 0.94829, Recall: 0.94687 F1: 0.94683, AUROC: 0.98789, AUPRC: 0.98810
+EarlyStopping counter: 22 out of 64
+Updating learning rate to 0.0001
+Epoch: 43 cost time: 1.6035494804382324
+Accuracy: 0.89271, Precision: 0.90943, Recall: 0.89271 F1: 0.89160, AUROC: 0.98568, AUPRC: 0.98588
+EarlyStopping counter: 23 out of 64
+Updating learning rate to 0.0001
+Epoch: 44 cost time: 1.523787021636963
+Accuracy: 0.94479, Precision: 0.94479, Recall: 0.94479 F1: 0.94479, AUROC: 0.98716, AUPRC: 0.98743
+Metric score decreased (-0.961446 --> -0.963524).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 45 cost time: 1.6428396701812744
+Accuracy: 0.90521, Precision: 0.91649, Recall: 0.90521 F1: 0.90456, AUROC: 0.98743, AUPRC: 0.98778
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 46 cost time: 1.4847497940063477
+Accuracy: 0.93333, Precision: 0.93668, Recall: 0.93333 F1: 0.93321, AUROC: 0.98762, AUPRC: 0.98797
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 47 cost time: 1.6922338008880615
+Accuracy: 0.93958, Precision: 0.93996, Recall: 0.93958 F1: 0.93957, AUROC: 0.98491, AUPRC: 0.98531
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 48 cost time: 1.6714518070220947
+Accuracy: 0.91250, Precision: 0.92199, Recall: 0.91250 F1: 0.91201, AUROC: 0.98653, AUPRC: 0.98672
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 49 cost time: 1.6687397956848145
+Accuracy: 0.92188, Precision: 0.92749, Recall: 0.92188 F1: 0.92162, AUROC: 0.98330, AUPRC: 0.98362
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 50 cost time: 1.9201161861419678
+Accuracy: 0.93333, Precision: 0.93334, Recall: 0.93333 F1: 0.93333, AUROC: 0.98282, AUPRC: 0.98343
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 51 cost time: 1.8069372177124023
+Accuracy: 0.94271, Precision: 0.94326, Recall: 0.94271 F1: 0.94269, AUROC: 0.98653, AUPRC: 0.98663
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 52 cost time: 1.783717155456543
+Accuracy: 0.94271, Precision: 0.94303, Recall: 0.94271 F1: 0.94270, AUROC: 0.98580, AUPRC: 0.98611
+EarlyStopping counter: 8 out of 64
+Updating learning rate to 0.0001
+Epoch: 53 cost time: 1.8385303020477295
+Accuracy: 0.93437, Precision: 0.93823, Recall: 0.93437 F1: 0.93423, AUROC: 0.98697, AUPRC: 0.98724
+EarlyStopping counter: 9 out of 64
+Updating learning rate to 0.0001
+Epoch: 54 cost time: 1.8402609825134277
+Accuracy: 0.91250, Precision: 0.92146, Recall: 0.91250 F1: 0.91203, AUROC: 0.98915, AUPRC: 0.98948
+EarlyStopping counter: 10 out of 64
+Updating learning rate to 0.0001
+Epoch: 55 cost time: 1.668043613433838
+Accuracy: 0.92917, Precision: 0.93248, Recall: 0.92917 F1: 0.92903, AUROC: 0.98424, AUPRC: 0.98459
+EarlyStopping counter: 11 out of 64
+Updating learning rate to 0.0001
+Epoch: 56 cost time: 1.6369690895080566
+Accuracy: 0.94063, Precision: 0.94067, Recall: 0.94063 F1: 0.94062, AUROC: 0.98618, AUPRC: 0.98657
+EarlyStopping counter: 12 out of 64
+Updating learning rate to 0.0001
+Epoch: 57 cost time: 1.765791893005371
+Accuracy: 0.93125, Precision: 0.93233, Recall: 0.93125 F1: 0.93121, AUROC: 0.98305, AUPRC: 0.98320
+EarlyStopping counter: 13 out of 64
+Updating learning rate to 0.0001
+Epoch: 58 cost time: 1.7097012996673584
+Accuracy: 0.92500, Precision: 0.92740, Recall: 0.92500 F1: 0.92489, AUROC: 0.98220, AUPRC: 0.98259
+EarlyStopping counter: 14 out of 64
+Updating learning rate to 0.0001
+Epoch: 59 cost time: 1.656324863433838
+Accuracy: 0.93125, Precision: 0.93490, Recall: 0.93125 F1: 0.93111, AUROC: 0.98427, AUPRC: 0.98456
+EarlyStopping counter: 15 out of 64
+Updating learning rate to 0.0001
+Epoch: 60 cost time: 1.7000977993011475
+Accuracy: 0.94375, Precision: 0.94549, Recall: 0.94375 F1: 0.94370, AUROC: 0.98581, AUPRC: 0.98611
+EarlyStopping counter: 16 out of 64
+Updating learning rate to 0.0001
+Epoch: 61 cost time: 1.709632158279419
+Accuracy: 0.94063, Precision: 0.94326, Recall: 0.94063 F1: 0.94054, AUROC: 0.98685, AUPRC: 0.98711
+EarlyStopping counter: 17 out of 64
+Updating learning rate to 0.0001
+Epoch: 62 cost time: 1.7132141590118408
+Accuracy: 0.94583, Precision: 0.94596, Recall: 0.94583 F1: 0.94583, AUROC: 0.98620, AUPRC: 0.98648
+EarlyStopping counter: 18 out of 64
+Updating learning rate to 0.0001
+Epoch: 63 cost time: 1.773261547088623
+Accuracy: 0.92083, Precision: 0.92408, Recall: 0.92083 F1: 0.92068, AUROC: 0.98248, AUPRC: 0.98278
+EarlyStopping counter: 19 out of 64
+Updating learning rate to 0.0001
+Epoch: 64 cost time: 1.882166862487793
+Accuracy: 0.94688, Precision: 0.94689, Recall: 0.94687 F1: 0.94687, AUROC: 0.98848, AUPRC: 0.98875
+EarlyStopping counter: 20 out of 64
+Updating learning rate to 0.0001
+>>>>>>>testing : VRAM_TDBRAIN_seed_57_dm_128_dp_0.0_tl_6_cl_0_bs_128_lr0.0001_aug_none,frequency0.4,drop0.6_pl_8<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Accuracy: 0.94479, Precision: 0.94479, Recall: 0.94479, F1: 0.94479, AUROC: 0.98716, AUPRC: 0.98743
+
+Use GPU: cuda:0
+>>>>>>>start training : VRAM_TDBRAIN_seed_58_dm_128_dp_0.0_tl_6_cl_0_bs_128_lr0.0001_aug_none,frequency0.4,drop0.6_pl_8>>>>>>>>>>>>>>>>>>>>>>>>>>
+(4320, 256, 33)
+(4320,)
+(960, 256, 33)
+(960,)
+(960, 256, 33)
+(960,)
+Epoch: 1 cost time: 1.5535376071929932
+Accuracy: 0.83854, Precision: 0.84611, Recall: 0.83854 F1: 0.83765, AUROC: 0.92707, AUPRC: 0.92803
+Metric score decreased (inf --> -0.857916).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.5372989177703857
+Accuracy: 0.81354, Precision: 0.81426, Recall: 0.81354 F1: 0.81343, AUROC: 0.90918, AUPRC: 0.91189
+Metric score decreased (-0.857916 --> -0.877075).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 1.5609838962554932
+Accuracy: 0.84271, Precision: 0.84994, Recall: 0.84271 F1: 0.84189, AUROC: 0.93722, AUPRC: 0.93998
+Metric score decreased (-0.877075 --> -0.883280).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 1.6025004386901855
+Accuracy: 0.82396, Precision: 0.85551, Recall: 0.82396 F1: 0.81996, AUROC: 0.94290, AUPRC: 0.94535
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 1.5852155685424805
+Accuracy: 0.86979, Precision: 0.87015, Recall: 0.86979 F1: 0.86976, AUROC: 0.95242, AUPRC: 0.95486
+Metric score decreased (-0.883280 --> -0.918594).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 1.559542179107666
+Accuracy: 0.88229, Precision: 0.88257, Recall: 0.88229 F1: 0.88227, AUROC: 0.95615, AUPRC: 0.95815
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 1.7158942222595215
+Accuracy: 0.87292, Precision: 0.87844, Recall: 0.87292 F1: 0.87245, AUROC: 0.95796, AUPRC: 0.95974
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 1.6203734874725342
+Accuracy: 0.87917, Precision: 0.88268, Recall: 0.87917 F1: 0.87889, AUROC: 0.96091, AUPRC: 0.96275
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 9 cost time: 1.7001047134399414
+Accuracy: 0.88229, Precision: 0.88302, Recall: 0.88229 F1: 0.88224, AUROC: 0.96014, AUPRC: 0.96221
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 10 cost time: 1.540452241897583
+Accuracy: 0.86354, Precision: 0.87836, Recall: 0.86354 F1: 0.86219, AUROC: 0.96084, AUPRC: 0.96254
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 11 cost time: 1.510209083557129
+Accuracy: 0.89479, Precision: 0.89570, Recall: 0.89479 F1: 0.89473, AUROC: 0.96782, AUPRC: 0.96934
+Metric score decreased (-0.918594 --> -0.921515).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 12 cost time: 1.5030927658081055
+Accuracy: 0.82083, Precision: 0.85982, Recall: 0.82083 F1: 0.81585, AUROC: 0.96282, AUPRC: 0.96454
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 13 cost time: 1.5880720615386963
+Accuracy: 0.89271, Precision: 0.89619, Recall: 0.89271 F1: 0.89247, AUROC: 0.97287, AUPRC: 0.97402
+Metric score decreased (-0.921515 --> -0.944782).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 14 cost time: 1.711374282836914
+Accuracy: 0.87813, Precision: 0.89097, Recall: 0.87813 F1: 0.87712, AUROC: 0.96821, AUPRC: 0.96958
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 15 cost time: 1.6809535026550293
+Accuracy: 0.91146, Precision: 0.91241, Recall: 0.91146 F1: 0.91141, AUROC: 0.97739, AUPRC: 0.97826
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 16 cost time: 1.6473677158355713
+Accuracy: 0.91563, Precision: 0.91563, Recall: 0.91562 F1: 0.91562, AUROC: 0.97369, AUPRC: 0.97478
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 17 cost time: 1.6377544403076172
+Accuracy: 0.89792, Precision: 0.89836, Recall: 0.89792 F1: 0.89789, AUROC: 0.97031, AUPRC: 0.97157
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 18 cost time: 1.5823850631713867
+Accuracy: 0.90625, Precision: 0.90881, Recall: 0.90625 F1: 0.90610, AUROC: 0.97364, AUPRC: 0.97477
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 19 cost time: 1.576028823852539
+Accuracy: 0.90104, Precision: 0.90319, Recall: 0.90104 F1: 0.90091, AUROC: 0.97341, AUPRC: 0.97458
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 20 cost time: 1.612921953201294
+Accuracy: 0.91250, Precision: 0.91276, Recall: 0.91250 F1: 0.91249, AUROC: 0.97704, AUPRC: 0.97801
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 21 cost time: 1.6735684871673584
+Accuracy: 0.91563, Precision: 0.92037, Recall: 0.91563 F1: 0.91539, AUROC: 0.97946, AUPRC: 0.98024
+EarlyStopping counter: 8 out of 64
+Updating learning rate to 0.0001
+Epoch: 22 cost time: 1.581289529800415
+Accuracy: 0.91563, Precision: 0.91577, Recall: 0.91563 F1: 0.91562, AUROC: 0.97636, AUPRC: 0.97726
+EarlyStopping counter: 9 out of 64
+Updating learning rate to 0.0001
+Epoch: 23 cost time: 1.9655132293701172
+Accuracy: 0.92083, Precision: 0.92143, Recall: 0.92083 F1: 0.92081, AUROC: 0.98385, AUPRC: 0.98445
+Metric score decreased (-0.944782 --> -0.951008).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 24 cost time: 1.816103458404541
+Accuracy: 0.92708, Precision: 0.92708, Recall: 0.92708 F1: 0.92708, AUROC: 0.98157, AUPRC: 0.98224
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 25 cost time: 1.8442285060882568
+Accuracy: 0.91458, Precision: 0.91504, Recall: 0.91458 F1: 0.91456, AUROC: 0.98109, AUPRC: 0.98186
+Metric score decreased (-0.951008 --> -0.955167).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 26 cost time: 1.6483702659606934
+Accuracy: 0.91354, Precision: 0.91689, Recall: 0.91354 F1: 0.91337, AUROC: 0.98272, AUPRC: 0.98335
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 27 cost time: 1.6972784996032715
+Accuracy: 0.93333, Precision: 0.93352, Recall: 0.93333 F1: 0.93333, AUROC: 0.98693, AUPRC: 0.98733
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 28 cost time: 1.6869723796844482
+Accuracy: 0.90729, Precision: 0.91271, Recall: 0.90729 F1: 0.90699, AUROC: 0.98109, AUPRC: 0.98177
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 29 cost time: 1.6839911937713623
+Accuracy: 0.93125, Precision: 0.93216, Recall: 0.93125 F1: 0.93121, AUROC: 0.98465, AUPRC: 0.98515
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 30 cost time: 1.776498556137085
+Accuracy: 0.93542, Precision: 0.93712, Recall: 0.93542 F1: 0.93535, AUROC: 0.98565, AUPRC: 0.98606
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 31 cost time: 1.699721097946167
+Accuracy: 0.92812, Precision: 0.92817, Recall: 0.92813 F1: 0.92812, AUROC: 0.98428, AUPRC: 0.98479
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 32 cost time: 1.5574977397918701
+Accuracy: 0.92604, Precision: 0.92949, Recall: 0.92604 F1: 0.92589, AUROC: 0.98203, AUPRC: 0.98247
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 33 cost time: 1.7091028690338135
+Accuracy: 0.93333, Precision: 0.93607, Recall: 0.93333 F1: 0.93323, AUROC: 0.98544, AUPRC: 0.98593
+EarlyStopping counter: 8 out of 64
+Updating learning rate to 0.0001
+Epoch: 34 cost time: 1.7084298133850098
+Accuracy: 0.93437, Precision: 0.93492, Recall: 0.93437 F1: 0.93435, AUROC: 0.98503, AUPRC: 0.98546
+EarlyStopping counter: 9 out of 64
+Updating learning rate to 0.0001
+Epoch: 35 cost time: 1.7434918880462646
+Accuracy: 0.91042, Precision: 0.91568, Recall: 0.91042 F1: 0.91013, AUROC: 0.98151, AUPRC: 0.98205
+EarlyStopping counter: 10 out of 64
+Updating learning rate to 0.0001
+Epoch: 36 cost time: 1.744248628616333
+Accuracy: 0.92708, Precision: 0.92727, Recall: 0.92708 F1: 0.92708, AUROC: 0.98507, AUPRC: 0.98546
+EarlyStopping counter: 11 out of 64
+Updating learning rate to 0.0001
+Epoch: 37 cost time: 1.8675947189331055
+Accuracy: 0.93125, Precision: 0.93233, Recall: 0.93125 F1: 0.93121, AUROC: 0.98631, AUPRC: 0.98660
+EarlyStopping counter: 12 out of 64
+Updating learning rate to 0.0001
+Epoch: 38 cost time: 1.8466358184814453
+Accuracy: 0.92604, Precision: 0.92702, Recall: 0.92604 F1: 0.92600, AUROC: 0.98154, AUPRC: 0.98210
+EarlyStopping counter: 13 out of 64
+Updating learning rate to 0.0001
+Epoch: 39 cost time: 1.7738666534423828
+Accuracy: 0.94271, Precision: 0.94271, Recall: 0.94271 F1: 0.94271, AUROC: 0.98819, AUPRC: 0.98846
+EarlyStopping counter: 14 out of 64
+Updating learning rate to 0.0001
+Epoch: 40 cost time: 1.765857219696045
+Accuracy: 0.93229, Precision: 0.93231, Recall: 0.93229 F1: 0.93229, AUROC: 0.98477, AUPRC: 0.98524
+EarlyStopping counter: 15 out of 64
+Updating learning rate to 0.0001
+Epoch: 41 cost time: 1.7179863452911377
+Accuracy: 0.92500, Precision: 0.93130, Recall: 0.92500 F1: 0.92473, AUROC: 0.98773, AUPRC: 0.98808
+EarlyStopping counter: 16 out of 64
+Updating learning rate to 0.0001
+Epoch: 42 cost time: 1.6229565143585205
+Accuracy: 0.93125, Precision: 0.93132, Recall: 0.93125 F1: 0.93125, AUROC: 0.98678, AUPRC: 0.98718
+Metric score decreased (-0.955167 --> -0.958319).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 43 cost time: 1.6355111598968506
+Accuracy: 0.94792, Precision: 0.94830, Recall: 0.94792 F1: 0.94791, AUROC: 0.98968, AUPRC: 0.98997
+Metric score decreased (-0.958319 --> -0.960383).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 44 cost time: 1.6022465229034424
+Accuracy: 0.94583, Precision: 0.94646, Recall: 0.94583 F1: 0.94581, AUROC: 0.98814, AUPRC: 0.98842
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 45 cost time: 1.8088879585266113
+Accuracy: 0.93437, Precision: 0.93697, Recall: 0.93437 F1: 0.93428, AUROC: 0.98762, AUPRC: 0.98795
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 46 cost time: 1.6709332466125488
+Accuracy: 0.93333, Precision: 0.93336, Recall: 0.93333 F1: 0.93333, AUROC: 0.98582, AUPRC: 0.98622
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 47 cost time: 1.69826078414917
+Accuracy: 0.93021, Precision: 0.93307, Recall: 0.93021 F1: 0.93009, AUROC: 0.98668, AUPRC: 0.98702
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 48 cost time: 1.6468937397003174
+Accuracy: 0.93958, Precision: 0.94088, Recall: 0.93958 F1: 0.93954, AUROC: 0.98886, AUPRC: 0.98912
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 49 cost time: 1.7486155033111572
+Accuracy: 0.93854, Precision: 0.94116, Recall: 0.93854 F1: 0.93845, AUROC: 0.98872, AUPRC: 0.98906
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 50 cost time: 1.7427411079406738
+Accuracy: 0.91979, Precision: 0.92763, Recall: 0.91979 F1: 0.91942, AUROC: 0.98866, AUPRC: 0.98888
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 51 cost time: 1.7193279266357422
+Accuracy: 0.91458, Precision: 0.92468, Recall: 0.91458 F1: 0.91407, AUROC: 0.98981, AUPRC: 0.98995
+EarlyStopping counter: 8 out of 64
+Updating learning rate to 0.0001
+Epoch: 52 cost time: 1.9000463485717773
+Accuracy: 0.92708, Precision: 0.93298, Recall: 0.92708 F1: 0.92683, AUROC: 0.98698, AUPRC: 0.98728
+EarlyStopping counter: 9 out of 64
+Updating learning rate to 0.0001
+Epoch: 53 cost time: 1.756335735321045
+Accuracy: 0.92708, Precision: 0.93104, Recall: 0.92708 F1: 0.92692, AUROC: 0.98828, AUPRC: 0.98857
+EarlyStopping counter: 10 out of 64
+Updating learning rate to 0.0001
+Epoch: 54 cost time: 1.635772943496704
+Accuracy: 0.90729, Precision: 0.91805, Recall: 0.90729 F1: 0.90669, AUROC: 0.98785, AUPRC: 0.98796
+EarlyStopping counter: 11 out of 64
+Updating learning rate to 0.0001
+Epoch: 55 cost time: 1.819911003112793
+Accuracy: 0.93021, Precision: 0.93474, Recall: 0.93021 F1: 0.93003, AUROC: 0.98760, AUPRC: 0.98782
+EarlyStopping counter: 12 out of 64
+Updating learning rate to 0.0001
+Epoch: 56 cost time: 2.3894360065460205
+Accuracy: 0.93854, Precision: 0.93993, Recall: 0.93854 F1: 0.93849, AUROC: 0.98854, AUPRC: 0.98867
+EarlyStopping counter: 13 out of 64
+Updating learning rate to 0.0001
+Epoch: 57 cost time: 1.7782492637634277
+Accuracy: 0.94063, Precision: 0.94064, Recall: 0.94063 F1: 0.94062, AUROC: 0.98658, AUPRC: 0.98686
+EarlyStopping counter: 14 out of 64
+Updating learning rate to 0.0001
+Epoch: 58 cost time: 1.859971046447754
+Accuracy: 0.94167, Precision: 0.94186, Recall: 0.94167 F1: 0.94166, AUROC: 0.98740, AUPRC: 0.98777
+EarlyStopping counter: 15 out of 64
+Updating learning rate to 0.0001
+Epoch: 59 cost time: 1.7008137702941895
+Accuracy: 0.91771, Precision: 0.92601, Recall: 0.91771 F1: 0.91731, AUROC: 0.98729, AUPRC: 0.98745
+EarlyStopping counter: 16 out of 64
+Updating learning rate to 0.0001
+Epoch: 60 cost time: 1.7403507232666016
+Accuracy: 0.92604, Precision: 0.93091, Recall: 0.92604 F1: 0.92583, AUROC: 0.98545, AUPRC: 0.98581
+EarlyStopping counter: 17 out of 64
+Updating learning rate to 0.0001
+Epoch: 61 cost time: 1.6652638912200928
+Accuracy: 0.93125, Precision: 0.93126, Recall: 0.93125 F1: 0.93125, AUROC: 0.98556, AUPRC: 0.98602
+EarlyStopping counter: 18 out of 64
+Updating learning rate to 0.0001
+Epoch: 62 cost time: 1.6165287494659424
+Accuracy: 0.93750, Precision: 0.94088, Recall: 0.93750 F1: 0.93738, AUROC: 0.98782, AUPRC: 0.98817
+EarlyStopping counter: 19 out of 64
+Updating learning rate to 0.0001
+Epoch: 63 cost time: 1.7355461120605469
+Accuracy: 0.92396, Precision: 0.93046, Recall: 0.92396 F1: 0.92367, AUROC: 0.98877, AUPRC: 0.98909
+EarlyStopping counter: 20 out of 64
+Updating learning rate to 0.0001
+Epoch: 64 cost time: 1.7399890422821045
+Accuracy: 0.93646, Precision: 0.93746, Recall: 0.93646 F1: 0.93642, AUROC: 0.98648, AUPRC: 0.98694
+EarlyStopping counter: 21 out of 64
+Updating learning rate to 0.0001
+>>>>>>>testing : VRAM_TDBRAIN_seed_58_dm_128_dp_0.0_tl_6_cl_0_bs_128_lr0.0001_aug_none,frequency0.4,drop0.6_pl_8<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Accuracy: 0.94792, Precision: 0.94830, Recall: 0.94792, F1: 0.94791, AUROC: 0.98968, AUPRC: 0.98997
+
+Use GPU: cuda:0
+>>>>>>>start training : VRAM_TDBRAIN_seed_59_dm_128_dp_0.0_tl_6_cl_0_bs_128_lr0.0001_aug_none,frequency0.4,drop0.6_pl_8>>>>>>>>>>>>>>>>>>>>>>>>>>
+(4320, 256, 33)
+(4320,)
+(960, 256, 33)
+(960,)
+(960, 256, 33)
+(960,)
+Epoch: 1 cost time: 1.6870803833007812
+Accuracy: 0.84271, Precision: 0.84289, Recall: 0.84271 F1: 0.84269, AUROC: 0.92181, AUPRC: 0.92276
+Metric score decreased (inf --> -0.882198).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.5360302925109863
+Accuracy: 0.81563, Precision: 0.82739, Recall: 0.81563 F1: 0.81395, AUROC: 0.92020, AUPRC: 0.92309
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 1.476252555847168
+Accuracy: 0.84479, Precision: 0.85439, Recall: 0.84479 F1: 0.84373, AUROC: 0.94058, AUPRC: 0.94308
+Metric score decreased (-0.882198 --> -0.910340).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 1.6254839897155762
+Accuracy: 0.87396, Precision: 0.87573, Recall: 0.87396 F1: 0.87381, AUROC: 0.95058, AUPRC: 0.95259
+Metric score decreased (-0.910340 --> -0.915422).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 1.71724534034729
+Accuracy: 0.83542, Precision: 0.85064, Recall: 0.83542 F1: 0.83361, AUROC: 0.95494, AUPRC: 0.95674
+Metric score decreased (-0.915422 --> -0.935394).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 1.7782096862792969
+Accuracy: 0.88646, Precision: 0.88720, Recall: 0.88646 F1: 0.88640, AUROC: 0.96049, AUPRC: 0.96185
+Metric score decreased (-0.935394 --> -0.935414).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 1.6379082202911377
+Accuracy: 0.85729, Precision: 0.86886, Recall: 0.85729 F1: 0.85616, AUROC: 0.96338, AUPRC: 0.96459
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 1.7889015674591064
+Accuracy: 0.88125, Precision: 0.88953, Recall: 0.88125 F1: 0.88062, AUROC: 0.96198, AUPRC: 0.96302
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 9 cost time: 1.8156182765960693
+Accuracy: 0.84375, Precision: 0.86667, Recall: 0.84375 F1: 0.84127, AUROC: 0.96600, AUPRC: 0.96703
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 10 cost time: 1.909874439239502
+Accuracy: 0.84271, Precision: 0.86764, Recall: 0.84271 F1: 0.84000, AUROC: 0.96759, AUPRC: 0.96858
+Metric score decreased (-0.935414 --> -0.944748).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 11 cost time: 1.6847929954528809
+Accuracy: 0.86979, Precision: 0.88421, Recall: 0.86979 F1: 0.86856, AUROC: 0.96399, AUPRC: 0.96395
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 12 cost time: 1.8413922786712646
+Accuracy: 0.90521, Precision: 0.90880, Recall: 0.90521 F1: 0.90500, AUROC: 0.97132, AUPRC: 0.97221
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 13 cost time: 1.7447540760040283
+Accuracy: 0.83958, Precision: 0.86471, Recall: 0.83958 F1: 0.83677, AUROC: 0.96026, AUPRC: 0.96013
+Metric score decreased (-0.944748 --> -0.947894).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 14 cost time: 1.88657808303833
+Accuracy: 0.87187, Precision: 0.88391, Recall: 0.87187 F1: 0.87086, AUROC: 0.96996, AUPRC: 0.97090
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 15 cost time: 1.7234983444213867
+Accuracy: 0.91771, Precision: 0.91836, Recall: 0.91771 F1: 0.91768, AUROC: 0.97514, AUPRC: 0.97569
+Metric score decreased (-0.947894 --> -0.952066).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 16 cost time: 1.6563000679016113
+Accuracy: 0.88958, Precision: 0.89319, Recall: 0.88958 F1: 0.88933, AUROC: 0.96938, AUPRC: 0.96998
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 17 cost time: 1.6629390716552734
+Accuracy: 0.89896, Precision: 0.90109, Recall: 0.89896 F1: 0.89882, AUROC: 0.96916, AUPRC: 0.96953
+Metric score decreased (-0.952066 --> -0.956235).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 18 cost time: 1.7212369441986084
+Accuracy: 0.90104, Precision: 0.90134, Recall: 0.90104 F1: 0.90102, AUROC: 0.97135, AUPRC: 0.97194
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 19 cost time: 1.6601929664611816
+Accuracy: 0.90417, Precision: 0.90597, Recall: 0.90417 F1: 0.90406, AUROC: 0.97216, AUPRC: 0.97308
+Metric score decreased (-0.956235 --> -0.959359).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 20 cost time: 1.6588826179504395
+Accuracy: 0.92708, Precision: 0.92756, Recall: 0.92708 F1: 0.92706, AUROC: 0.97991, AUPRC: 0.98008
+Metric score decreased (-0.959359 --> -0.961440).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 21 cost time: 1.828871726989746
+Accuracy: 0.86771, Precision: 0.88619, Recall: 0.86771 F1: 0.86611, AUROC: 0.97386, AUPRC: 0.97461
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 22 cost time: 1.6509430408477783
+Accuracy: 0.90417, Precision: 0.91102, Recall: 0.90417 F1: 0.90377, AUROC: 0.97861, AUPRC: 0.97904
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 23 cost time: 1.5935978889465332
+Accuracy: 0.91458, Precision: 0.91843, Recall: 0.91458 F1: 0.91439, AUROC: 0.97761, AUPRC: 0.97801
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 24 cost time: 1.5362980365753174
+Accuracy: 0.92708, Precision: 0.92815, Recall: 0.92708 F1: 0.92704, AUROC: 0.98004, AUPRC: 0.98038
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 25 cost time: 1.6622529029846191
+Accuracy: 0.91771, Precision: 0.91924, Recall: 0.91771 F1: 0.91763, AUROC: 0.98061, AUPRC: 0.98101
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 26 cost time: 1.6805617809295654
+Accuracy: 0.89167, Precision: 0.90344, Recall: 0.89167 F1: 0.89087, AUROC: 0.97866, AUPRC: 0.97923
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 27 cost time: 1.6839735507965088
+Accuracy: 0.91563, Precision: 0.91571, Recall: 0.91563 F1: 0.91562, AUROC: 0.97622, AUPRC: 0.97633
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 28 cost time: 1.623382568359375
+Accuracy: 0.90208, Precision: 0.91082, Recall: 0.90208 F1: 0.90156, AUROC: 0.98194, AUPRC: 0.98220
+EarlyStopping counter: 8 out of 64
+Updating learning rate to 0.0001
+Epoch: 29 cost time: 1.6554341316223145
+Accuracy: 0.92500, Precision: 0.92768, Recall: 0.92500 F1: 0.92488, AUROC: 0.98003, AUPRC: 0.98025
+EarlyStopping counter: 9 out of 64
+Updating learning rate to 0.0001
+Epoch: 30 cost time: 1.6505742073059082
+Accuracy: 0.89167, Precision: 0.90466, Recall: 0.89167 F1: 0.89079, AUROC: 0.98114, AUPRC: 0.98130
+EarlyStopping counter: 10 out of 64
+Updating learning rate to 0.0001
+Epoch: 31 cost time: 1.7081735134124756
+Accuracy: 0.93125, Precision: 0.93137, Recall: 0.93125 F1: 0.93125, AUROC: 0.98221, AUPRC: 0.98267
+EarlyStopping counter: 11 out of 64
+Updating learning rate to 0.0001
+Epoch: 32 cost time: 1.6151087284088135
+Accuracy: 0.90729, Precision: 0.91694, Recall: 0.90729 F1: 0.90675, AUROC: 0.98368, AUPRC: 0.98395
+EarlyStopping counter: 12 out of 64
+Updating learning rate to 0.0001
+Epoch: 33 cost time: 1.4753074645996094
+Accuracy: 0.93437, Precision: 0.93453, Recall: 0.93437 F1: 0.93437, AUROC: 0.98165, AUPRC: 0.98208
+EarlyStopping counter: 13 out of 64
+Updating learning rate to 0.0001
+Epoch: 34 cost time: 1.4978687763214111
+Accuracy: 0.93958, Precision: 0.94007, Recall: 0.93958 F1: 0.93957, AUROC: 0.98434, AUPRC: 0.98476
+EarlyStopping counter: 14 out of 64
+Updating learning rate to 0.0001
+Epoch: 35 cost time: 1.5753231048583984
+Accuracy: 0.93854, Precision: 0.93909, Recall: 0.93854 F1: 0.93852, AUROC: 0.98413, AUPRC: 0.98441
+EarlyStopping counter: 15 out of 64
+Updating learning rate to 0.0001
+Epoch: 36 cost time: 1.7014100551605225
+Accuracy: 0.93333, Precision: 0.93394, Recall: 0.93333 F1: 0.93331, AUROC: 0.98510, AUPRC: 0.98551
+EarlyStopping counter: 16 out of 64
+Updating learning rate to 0.0001
+Epoch: 37 cost time: 1.7256560325622559
+Accuracy: 0.93958, Precision: 0.93961, Recall: 0.93958 F1: 0.93958, AUROC: 0.98456, AUPRC: 0.98479
+EarlyStopping counter: 17 out of 64
+Updating learning rate to 0.0001
+Epoch: 38 cost time: 1.6865713596343994
+Accuracy: 0.93437, Precision: 0.93453, Recall: 0.93437 F1: 0.93437, AUROC: 0.98209, AUPRC: 0.98244
+EarlyStopping counter: 18 out of 64
+Updating learning rate to 0.0001
+Epoch: 39 cost time: 1.6537914276123047
+Accuracy: 0.91458, Precision: 0.91913, Recall: 0.91458 F1: 0.91435, AUROC: 0.98207, AUPRC: 0.98233
+EarlyStopping counter: 19 out of 64
+Updating learning rate to 0.0001
+Epoch: 40 cost time: 1.635803461074829
+Accuracy: 0.94167, Precision: 0.94260, Recall: 0.94167 F1: 0.94164, AUROC: 0.98509, AUPRC: 0.98532
+EarlyStopping counter: 20 out of 64
+Updating learning rate to 0.0001
+Epoch: 41 cost time: 1.708763599395752
+Accuracy: 0.91250, Precision: 0.91997, Recall: 0.91250 F1: 0.91211, AUROC: 0.98686, AUPRC: 0.98718
+EarlyStopping counter: 21 out of 64
+Updating learning rate to 0.0001
+Epoch: 42 cost time: 1.622973918914795
+Accuracy: 0.92396, Precision: 0.92842, Recall: 0.92396 F1: 0.92376, AUROC: 0.98506, AUPRC: 0.98521
+EarlyStopping counter: 22 out of 64
+Updating learning rate to 0.0001
+Epoch: 43 cost time: 1.6620292663574219
+Accuracy: 0.93646, Precision: 0.93853, Recall: 0.93646 F1: 0.93638, AUROC: 0.98619, AUPRC: 0.98649
+EarlyStopping counter: 23 out of 64
+Updating learning rate to 0.0001
+Epoch: 44 cost time: 1.754946231842041
+Accuracy: 0.92500, Precision: 0.93086, Recall: 0.92500 F1: 0.92474, AUROC: 0.98656, AUPRC: 0.98666
+EarlyStopping counter: 24 out of 64
+Updating learning rate to 0.0001
+Epoch: 45 cost time: 1.5256338119506836
+Accuracy: 0.91354, Precision: 0.92127, Recall: 0.91354 F1: 0.91314, AUROC: 0.98444, AUPRC: 0.98437
+EarlyStopping counter: 25 out of 64
+Updating learning rate to 0.0001
+Epoch: 46 cost time: 1.5236213207244873
+Accuracy: 0.93437, Precision: 0.93537, Recall: 0.93437 F1: 0.93434, AUROC: 0.98446, AUPRC: 0.98476
+EarlyStopping counter: 26 out of 64
+Updating learning rate to 0.0001
+Epoch: 47 cost time: 1.4993200302124023
+Accuracy: 0.94167, Precision: 0.94297, Recall: 0.94167 F1: 0.94162, AUROC: 0.98727, AUPRC: 0.98763
+EarlyStopping counter: 27 out of 64
+Updating learning rate to 0.0001
+Epoch: 48 cost time: 1.704071044921875
+Accuracy: 0.92188, Precision: 0.92669, Recall: 0.92188 F1: 0.92165, AUROC: 0.98422, AUPRC: 0.98472
+EarlyStopping counter: 28 out of 64
+Updating learning rate to 0.0001
+Epoch: 49 cost time: 1.5845189094543457
+Accuracy: 0.92917, Precision: 0.93024, Recall: 0.92917 F1: 0.92912, AUROC: 0.98578, AUPRC: 0.98622
+EarlyStopping counter: 29 out of 64
+Updating learning rate to 0.0001
+Epoch: 50 cost time: 1.700404167175293
+Accuracy: 0.90312, Precision: 0.91555, Recall: 0.90312 F1: 0.90240, AUROC: 0.98781, AUPRC: 0.98815
+EarlyStopping counter: 30 out of 64
+Updating learning rate to 0.0001
+Epoch: 51 cost time: 1.7080843448638916
+Accuracy: 0.93229, Precision: 0.93366, Recall: 0.93229 F1: 0.93224, AUROC: 0.98630, AUPRC: 0.98670
+EarlyStopping counter: 31 out of 64
+Updating learning rate to 0.0001
+Epoch: 52 cost time: 1.4913544654846191
+Accuracy: 0.91354, Precision: 0.92227, Recall: 0.91354 F1: 0.91309, AUROC: 0.98795, AUPRC: 0.98829
+EarlyStopping counter: 32 out of 64
+Updating learning rate to 0.0001
+Epoch: 53 cost time: 1.6579725742340088
+Accuracy: 0.93021, Precision: 0.93023, Recall: 0.93021 F1: 0.93021, AUROC: 0.98317, AUPRC: 0.98368
+EarlyStopping counter: 33 out of 64
+Updating learning rate to 0.0001
+Epoch: 54 cost time: 1.6694936752319336
+Accuracy: 0.93646, Precision: 0.93730, Recall: 0.93646 F1: 0.93643, AUROC: 0.98522, AUPRC: 0.98567
+EarlyStopping counter: 34 out of 64
+Updating learning rate to 0.0001
+Epoch: 55 cost time: 1.5708551406860352
+Accuracy: 0.91354, Precision: 0.92227, Recall: 0.91354 F1: 0.91309, AUROC: 0.98478, AUPRC: 0.98513
+EarlyStopping counter: 35 out of 64
+Updating learning rate to 0.0001
+Epoch: 56 cost time: 1.6185245513916016
+Accuracy: 0.93958, Precision: 0.94069, Recall: 0.93958 F1: 0.93955, AUROC: 0.98452, AUPRC: 0.98497
+EarlyStopping counter: 36 out of 64
+Updating learning rate to 0.0001
+Epoch: 57 cost time: 1.59574294090271
+Accuracy: 0.92812, Precision: 0.92866, Recall: 0.92812 F1: 0.92810, AUROC: 0.98324, AUPRC: 0.98364
+EarlyStopping counter: 37 out of 64
+Updating learning rate to 0.0001
+Epoch: 58 cost time: 1.5409588813781738
+Accuracy: 0.93229, Precision: 0.93347, Recall: 0.93229 F1: 0.93225, AUROC: 0.98338, AUPRC: 0.98380
+EarlyStopping counter: 38 out of 64
+Updating learning rate to 0.0001
+Epoch: 59 cost time: 1.7026722431182861
+Accuracy: 0.92812, Precision: 0.93127, Recall: 0.92812 F1: 0.92799, AUROC: 0.98703, AUPRC: 0.98744
+EarlyStopping counter: 39 out of 64
+Updating learning rate to 0.0001
+Epoch: 60 cost time: 1.6019024848937988
+Accuracy: 0.93646, Precision: 0.93655, Recall: 0.93646 F1: 0.93645, AUROC: 0.98555, AUPRC: 0.98601
+EarlyStopping counter: 40 out of 64
+Updating learning rate to 0.0001
+Epoch: 61 cost time: 1.4557693004608154
+Accuracy: 0.94271, Precision: 0.94373, Recall: 0.94271 F1: 0.94268, AUROC: 0.98722, AUPRC: 0.98759
+EarlyStopping counter: 41 out of 64
+Updating learning rate to 0.0001
+Epoch: 62 cost time: 1.6022083759307861
+Accuracy: 0.91979, Precision: 0.92813, Recall: 0.91979 F1: 0.91940, AUROC: 0.98788, AUPRC: 0.98824
+EarlyStopping counter: 42 out of 64
+Updating learning rate to 0.0001
+Epoch: 63 cost time: 1.5548427104949951
+Accuracy: 0.93437, Precision: 0.93447, Recall: 0.93437 F1: 0.93437, AUROC: 0.98424, AUPRC: 0.98473
+EarlyStopping counter: 43 out of 64
+Updating learning rate to 0.0001
+Epoch: 64 cost time: 1.5075738430023193
+Accuracy: 0.91250, Precision: 0.91819, Recall: 0.91250 F1: 0.91220, AUROC: 0.98486, AUPRC: 0.98536
+EarlyStopping counter: 44 out of 64
+Updating learning rate to 0.0001
+>>>>>>>testing : VRAM_TDBRAIN_seed_59_dm_128_dp_0.0_tl_6_cl_0_bs_128_lr0.0001_aug_none,frequency0.4,drop0.6_pl_8<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Accuracy: 0.92708, Precision: 0.92756, Recall: 0.92708, F1: 0.92706, AUROC: 0.97991, AUPRC: 0.98008
+
+Use GPU: cuda:0
+>>>>>>>start training : VRAM_TDBRAIN_seed_60_dm_128_dp_0.0_tl_6_cl_0_bs_128_lr0.0001_aug_none,frequency0.4,drop0.6_pl_8>>>>>>>>>>>>>>>>>>>>>>>>>>
+(4320, 256, 33)
+(4320,)
+(960, 256, 33)
+(960,)
+(960, 256, 33)
+(960,)
+Epoch: 1 cost time: 1.549475908279419
+Accuracy: 0.84271, Precision: 0.84296, Recall: 0.84271 F1: 0.84268, AUROC: 0.92809, AUPRC: 0.92881
+Metric score decreased (inf --> -0.877963).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 2 cost time: 1.5966122150421143
+Accuracy: 0.79896, Precision: 0.82632, Recall: 0.79896 F1: 0.79465, AUROC: 0.92240, AUPRC: 0.92374
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 1.4819111824035645
+Accuracy: 0.84479, Precision: 0.84685, Recall: 0.84479 F1: 0.84456, AUROC: 0.93396, AUPRC: 0.93637
+Metric score decreased (-0.877963 --> -0.910403).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 1.5551972389221191
+Accuracy: 0.85938, Precision: 0.86130, Recall: 0.85938 F1: 0.85919, AUROC: 0.94863, AUPRC: 0.95071
+Metric score decreased (-0.910403 --> -0.923948).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 5 cost time: 1.693232774734497
+Accuracy: 0.85521, Precision: 0.85926, Recall: 0.85521 F1: 0.85480, AUROC: 0.94852, AUPRC: 0.94990
+Metric score decreased (-0.923948 --> -0.929152).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 6 cost time: 1.5397958755493164
+Accuracy: 0.88125, Precision: 0.88295, Recall: 0.88125 F1: 0.88112, AUROC: 0.95336, AUPRC: 0.95542
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 7 cost time: 1.6369562149047852
+Accuracy: 0.88333, Precision: 0.88446, Recall: 0.88333 F1: 0.88325, AUROC: 0.95602, AUPRC: 0.95699
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 8 cost time: 1.6666080951690674
+Accuracy: 0.89062, Precision: 0.89071, Recall: 0.89062 F1: 0.89062, AUROC: 0.96272, AUPRC: 0.96436
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 9 cost time: 1.6470093727111816
+Accuracy: 0.88958, Precision: 0.89288, Recall: 0.88958 F1: 0.88935, AUROC: 0.96203, AUPRC: 0.96345
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 10 cost time: 1.6523900032043457
+Accuracy: 0.88854, Precision: 0.88854, Recall: 0.88854 F1: 0.88854, AUROC: 0.96339, AUPRC: 0.96481
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 11 cost time: 1.6168830394744873
+Accuracy: 0.89687, Precision: 0.89876, Recall: 0.89688 F1: 0.89675, AUROC: 0.96819, AUPRC: 0.96928
+Metric score decreased (-0.929152 --> -0.931078).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 12 cost time: 1.4421820640563965
+Accuracy: 0.89167, Precision: 0.90018, Recall: 0.89167 F1: 0.89109, AUROC: 0.96707, AUPRC: 0.96788
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 13 cost time: 1.5997288227081299
+Accuracy: 0.90729, Precision: 0.90759, Recall: 0.90729 F1: 0.90727, AUROC: 0.96919, AUPRC: 0.96999
+Metric score decreased (-0.931078 --> -0.933329).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 14 cost time: 1.5667228698730469
+Accuracy: 0.89896, Precision: 0.89935, Recall: 0.89896 F1: 0.89893, AUROC: 0.97097, AUPRC: 0.97196
+Metric score decreased (-0.933329 --> -0.938478).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 15 cost time: 1.6963660717010498
+Accuracy: 0.91563, Precision: 0.91839, Recall: 0.91563 F1: 0.91549, AUROC: 0.97406, AUPRC: 0.97464
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 16 cost time: 1.6304819583892822
+Accuracy: 0.87292, Precision: 0.88779, Recall: 0.87292 F1: 0.87169, AUROC: 0.97198, AUPRC: 0.97260
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 17 cost time: 1.6104331016540527
+Accuracy: 0.87708, Precision: 0.89798, Recall: 0.87708 F1: 0.87545, AUROC: 0.98051, AUPRC: 0.98083
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 18 cost time: 1.5636868476867676
+Accuracy: 0.92083, Precision: 0.92227, Recall: 0.92083 F1: 0.92077, AUROC: 0.97741, AUPRC: 0.97798
+Metric score decreased (-0.938478 --> -0.953110).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 19 cost time: 1.6662020683288574
+Accuracy: 0.92604, Precision: 0.92671, Recall: 0.92604 F1: 0.92601, AUROC: 0.97747, AUPRC: 0.97801
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 20 cost time: 1.6394896507263184
+Accuracy: 0.91563, Precision: 0.92000, Recall: 0.91563 F1: 0.91540, AUROC: 0.97853, AUPRC: 0.97893
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 21 cost time: 1.563513994216919
+Accuracy: 0.91667, Precision: 0.92088, Recall: 0.91667 F1: 0.91646, AUROC: 0.97967, AUPRC: 0.97994
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 22 cost time: 1.5865917205810547
+Accuracy: 0.93854, Precision: 0.93859, Recall: 0.93854 F1: 0.93854, AUROC: 0.98353, AUPRC: 0.98390
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 23 cost time: 1.6316311359405518
+Accuracy: 0.91146, Precision: 0.91392, Recall: 0.91146 F1: 0.91133, AUROC: 0.97269, AUPRC: 0.97301
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 24 cost time: 1.655702829360962
+Accuracy: 0.91667, Precision: 0.92020, Recall: 0.91667 F1: 0.91649, AUROC: 0.98082, AUPRC: 0.98129
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 25 cost time: 1.6613588333129883
+Accuracy: 0.89062, Precision: 0.90519, Recall: 0.89062 F1: 0.88963, AUROC: 0.98079, AUPRC: 0.98103
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 26 cost time: 1.633598804473877
+Accuracy: 0.91146, Precision: 0.91867, Recall: 0.91146 F1: 0.91108, AUROC: 0.98233, AUPRC: 0.98277
+EarlyStopping counter: 8 out of 64
+Updating learning rate to 0.0001
+Epoch: 27 cost time: 1.6126294136047363
+Accuracy: 0.94063, Precision: 0.94132, Recall: 0.94063 F1: 0.94060, AUROC: 0.98551, AUPRC: 0.98585
+EarlyStopping counter: 9 out of 64
+Updating learning rate to 0.0001
+Epoch: 28 cost time: 1.5917096138000488
+Accuracy: 0.91354, Precision: 0.92176, Recall: 0.91354 F1: 0.91312, AUROC: 0.98362, AUPRC: 0.98392
+EarlyStopping counter: 10 out of 64
+Updating learning rate to 0.0001
+Epoch: 29 cost time: 1.5864753723144531
+Accuracy: 0.93125, Precision: 0.93200, Recall: 0.93125 F1: 0.93122, AUROC: 0.98115, AUPRC: 0.98173
+EarlyStopping counter: 11 out of 64
+Updating learning rate to 0.0001
+Epoch: 30 cost time: 1.4936668872833252
+Accuracy: 0.92708, Precision: 0.92854, Recall: 0.92708 F1: 0.92702, AUROC: 0.98216, AUPRC: 0.98261
+EarlyStopping counter: 12 out of 64
+Updating learning rate to 0.0001
+Epoch: 31 cost time: 1.4871735572814941
+Accuracy: 0.93646, Precision: 0.93730, Recall: 0.93646 F1: 0.93643, AUROC: 0.98504, AUPRC: 0.98539
+EarlyStopping counter: 13 out of 64
+Updating learning rate to 0.0001
+Epoch: 32 cost time: 1.738586664199829
+Accuracy: 0.91458, Precision: 0.92209, Recall: 0.91458 F1: 0.91420, AUROC: 0.98675, AUPRC: 0.98702
+EarlyStopping counter: 14 out of 64
+Updating learning rate to 0.0001
+Epoch: 33 cost time: 1.7033464908599854
+Accuracy: 0.87813, Precision: 0.89949, Recall: 0.87813 F1: 0.87647, AUROC: 0.98616, AUPRC: 0.98619
+EarlyStopping counter: 15 out of 64
+Updating learning rate to 0.0001
+Epoch: 34 cost time: 1.7033965587615967
+Accuracy: 0.93542, Precision: 0.93545, Recall: 0.93542 F1: 0.93542, AUROC: 0.98338, AUPRC: 0.98361
+EarlyStopping counter: 16 out of 64
+Updating learning rate to 0.0001
+Epoch: 35 cost time: 1.6376657485961914
+Accuracy: 0.94688, Precision: 0.94720, Recall: 0.94688 F1: 0.94687, AUROC: 0.98794, AUPRC: 0.98828
+EarlyStopping counter: 17 out of 64
+Updating learning rate to 0.0001
+Epoch: 36 cost time: 1.5326669216156006
+Accuracy: 0.94063, Precision: 0.94182, Recall: 0.94063 F1: 0.94058, AUROC: 0.98773, AUPRC: 0.98795
+EarlyStopping counter: 18 out of 64
+Updating learning rate to 0.0001
+Epoch: 37 cost time: 1.6027274131774902
+Accuracy: 0.89271, Precision: 0.90481, Recall: 0.89271 F1: 0.89190, AUROC: 0.98187, AUPRC: 0.98231
+EarlyStopping counter: 19 out of 64
+Updating learning rate to 0.0001
+Epoch: 38 cost time: 1.5961153507232666
+Accuracy: 0.93958, Precision: 0.94051, Recall: 0.93958 F1: 0.93955, AUROC: 0.98601, AUPRC: 0.98633
+Metric score decreased (-0.953110 --> -0.955206).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 39 cost time: 1.7591142654418945
+Accuracy: 0.90312, Precision: 0.91494, Recall: 0.90312 F1: 0.90243, AUROC: 0.98842, AUPRC: 0.98860
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 40 cost time: 1.552184820175171
+Accuracy: 0.94792, Precision: 0.94886, Recall: 0.94792 F1: 0.94789, AUROC: 0.99003, AUPRC: 0.99030
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 41 cost time: 1.593665361404419
+Accuracy: 0.93542, Precision: 0.93761, Recall: 0.93542 F1: 0.93534, AUROC: 0.98727, AUPRC: 0.98768
+Metric score decreased (-0.955206 --> -0.956250).  Saving model ...
+
+Updating learning rate to 0.0001
+Epoch: 42 cost time: 1.5442554950714111
+Accuracy: 0.94896, Precision: 0.94912, Recall: 0.94896 F1: 0.94895, AUROC: 0.98924, AUPRC: 0.98952
+EarlyStopping counter: 1 out of 64
+Updating learning rate to 0.0001
+Epoch: 43 cost time: 1.580867052078247
+Accuracy: 0.94896, Precision: 0.94898, Recall: 0.94896 F1: 0.94896, AUROC: 0.98633, AUPRC: 0.98662
+EarlyStopping counter: 2 out of 64
+Updating learning rate to 0.0001
+Epoch: 44 cost time: 1.567384958267212
+Accuracy: 0.95208, Precision: 0.95272, Recall: 0.95208 F1: 0.95207, AUROC: 0.99011, AUPRC: 0.99031
+EarlyStopping counter: 3 out of 64
+Updating learning rate to 0.0001
+Epoch: 45 cost time: 1.5953431129455566
+Accuracy: 0.93229, Precision: 0.93763, Recall: 0.93229 F1: 0.93208, AUROC: 0.98704, AUPRC: 0.98730
+EarlyStopping counter: 4 out of 64
+Updating learning rate to 0.0001
+Epoch: 46 cost time: 1.6280038356781006
+Accuracy: 0.93333, Precision: 0.93848, Recall: 0.93333 F1: 0.93314, AUROC: 0.99031, AUPRC: 0.99057
+EarlyStopping counter: 5 out of 64
+Updating learning rate to 0.0001
+Epoch: 47 cost time: 1.538980484008789
+Accuracy: 0.95000, Precision: 0.95013, Recall: 0.95000 F1: 0.95000, AUROC: 0.98655, AUPRC: 0.98672
+EarlyStopping counter: 6 out of 64
+Updating learning rate to 0.0001
+Epoch: 48 cost time: 1.7015676498413086
+Accuracy: 0.91875, Precision: 0.92540, Recall: 0.91875 F1: 0.91843, AUROC: 0.98662, AUPRC: 0.98673
+EarlyStopping counter: 7 out of 64
+Updating learning rate to 0.0001
+Epoch: 49 cost time: 1.7124090194702148
+Accuracy: 0.91563, Precision: 0.92388, Recall: 0.91563 F1: 0.91521, AUROC: 0.98660, AUPRC: 0.98680
+EarlyStopping counter: 8 out of 64
+Updating learning rate to 0.0001
+Epoch: 50 cost time: 1.697896957397461
+Accuracy: 0.93646, Precision: 0.93879, Recall: 0.93646 F1: 0.93637, AUROC: 0.98580, AUPRC: 0.98602
+EarlyStopping counter: 9 out of 64
+Updating learning rate to 0.0001
+Epoch: 51 cost time: 1.7869617938995361
+Accuracy: 0.90312, Precision: 0.91555, Recall: 0.90312 F1: 0.90240, AUROC: 0.98916, AUPRC: 0.98938
+EarlyStopping counter: 10 out of 64
+Updating learning rate to 0.0001
+Epoch: 52 cost time: 1.7788112163543701
+Accuracy: 0.91771, Precision: 0.92412, Recall: 0.91771 F1: 0.91740, AUROC: 0.98727, AUPRC: 0.98755
+EarlyStopping counter: 11 out of 64
+Updating learning rate to 0.0001
+Epoch: 53 cost time: 1.6343116760253906
+Accuracy: 0.93958, Precision: 0.94069, Recall: 0.93958 F1: 0.93955, AUROC: 0.98430, AUPRC: 0.98465
+EarlyStopping counter: 12 out of 64
+Updating learning rate to 0.0001
+Epoch: 54 cost time: 1.7170355319976807
+Accuracy: 0.92292, Precision: 0.92875, Recall: 0.92292 F1: 0.92265, AUROC: 0.98667, AUPRC: 0.98679
+EarlyStopping counter: 13 out of 64
+Updating learning rate to 0.0001
+Epoch: 55 cost time: 1.6069872379302979
+Accuracy: 0.95521, Precision: 0.95523, Recall: 0.95521 F1: 0.95521, AUROC: 0.98804, AUPRC: 0.98832
+EarlyStopping counter: 14 out of 64
+Updating learning rate to 0.0001
+Epoch: 56 cost time: 1.6936156749725342
+Accuracy: 0.95521, Precision: 0.95608, Recall: 0.95521 F1: 0.95519, AUROC: 0.98862, AUPRC: 0.98878
+EarlyStopping counter: 15 out of 64
+Updating learning rate to 0.0001
+Epoch: 57 cost time: 1.775099515914917
+Accuracy: 0.93750, Precision: 0.93826, Recall: 0.93750 F1: 0.93747, AUROC: 0.98390, AUPRC: 0.98427
+EarlyStopping counter: 16 out of 64
+Updating learning rate to 0.0001
+Epoch: 58 cost time: 1.62467360496521
+Accuracy: 0.85729, Precision: 0.88700, Recall: 0.85729 F1: 0.85450, AUROC: 0.98940, AUPRC: 0.98959
+EarlyStopping counter: 17 out of 64
+Updating learning rate to 0.0001
+Epoch: 59 cost time: 1.7275633811950684
+Accuracy: 0.94792, Precision: 0.94820, Recall: 0.94792 F1: 0.94791, AUROC: 0.98749, AUPRC: 0.98773
+EarlyStopping counter: 18 out of 64
+Updating learning rate to 0.0001
+Epoch: 60 cost time: 1.7001268863677979
+Accuracy: 0.91458, Precision: 0.92359, Recall: 0.91458 F1: 0.91413, AUROC: 0.98663, AUPRC: 0.98674
+EarlyStopping counter: 19 out of 64
+Updating learning rate to 0.0001
+Epoch: 61 cost time: 1.6836137771606445
+Accuracy: 0.93125, Precision: 0.93561, Recall: 0.93125 F1: 0.93108, AUROC: 0.98592, AUPRC: 0.98597
+EarlyStopping counter: 20 out of 64
+Updating learning rate to 0.0001
+Epoch: 62 cost time: 1.695711612701416
+Accuracy: 0.94063, Precision: 0.94064, Recall: 0.94063 F1: 0.94062, AUROC: 0.98477, AUPRC: 0.98481
+EarlyStopping counter: 21 out of 64
+Updating learning rate to 0.0001
+Epoch: 63 cost time: 1.81927490234375
+Accuracy: 0.95104, Precision: 0.95148, Recall: 0.95104 F1: 0.95103, AUROC: 0.98651, AUPRC: 0.98661
+EarlyStopping counter: 22 out of 64
+Updating learning rate to 0.0001
+Epoch: 64 cost time: 1.7596511840820312
+Accuracy: 0.94792, Precision: 0.94830, Recall: 0.94792 F1: 0.94791, AUROC: 0.98719, AUPRC: 0.98734
+EarlyStopping counter: 23 out of 64
+Updating learning rate to 0.0001
+>>>>>>>testing : VRAM_TDBRAIN_seed_60_dm_128_dp_0.0_tl_6_cl_0_bs_128_lr0.0001_aug_none,frequency0.4,drop0.6_pl_8<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Model weights deleted....
+Accuracy: 0.93542, Precision: 0.93761, Recall: 0.93542, F1: 0.93534, AUROC: 0.98727, AUPRC: 0.98768
+
+Mean accuracy: 0.9396, precision: 0.9403,recall: 0.9396, f1: 0.9396, AUROC: 0.9865, AUPRC: 0.9868
+Std accuracy: 0.0075, precision: 0.0072,recall: 0.0075, f1: 0.0075, AUROC: 0.0034, AUPRC: 0.0035
