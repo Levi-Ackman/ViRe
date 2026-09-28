@@ -40,7 +40,7 @@ Vision-language models offer a shortcut to this structure. Trained with natural-
 
 ViRe keeps a dual view of every recording and lets the two views interact through retrieval:
 
-1. **Numerical view.** The signal is tokenized along two complementary axes, a *Temporal embedding* (segments across all channels) and a *Channel embedding* (the whole trajectory of each channel), and encoded by two Transformer encoders.
+1. **Numerical view.** The signal is tokenized along two complementary axes, a *Temporal embedding* (segments across all channels) and a *Channel embedding* (the whole trajectory of each channel), and encoded by Transformer encoders.
 2. **Waveform view.** A deterministic **visualization operator** stacks the channels into one decoration-free waveform image, which a **frozen** CLIP vision encoder turns into a compact embedding. No fine-tuning and no auxiliary objective are involved.
 3. **Vision-Informed Retrieval.** The projected CLIP embedding is the single shared **Query** of two cross-attention blocks whose Keys and Values are the temporal and channel tokens. Vision decides *what to retrieve*; every retrieved feature remains numerical. The two summaries are added and projected to the class logits.
 
